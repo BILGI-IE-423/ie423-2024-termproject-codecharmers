@@ -5,6 +5,13 @@ Abstract
 This study aims to comprehensively analyze the factors influencing mobile app ratings. Understanding these elements is essential to improving user satisfaction and optimizing app performance. The study looks into the application of machine learning algorithms and how variables like user reviews, app cost, and genre affect app ratings. It also examines the emotional reactions of users both before and after the COVID-19 outbreak. In general, the study offers significant perspectives for marketers and app developers to enhance customer contentment and maximize app efficiency.
 
 
+Scope of the Project
+
+This study intends to conduct a thorough investigation into the elements that influence mobile app evaluations. It focuses on such as user reviews, app pricing, and app genres to identify their proportional value in deciding app scores. The research will investigate several machine learning techniques to acquire a thorough understanding of the elements that influence app installation ratings. By combining features such as emotional content gathered from user reviews, pricing policies, and other external factors, the project hopes to create predictive models capable of accurately projecting app download numbers.  
+
+Moreover, the study will investigate the emotional changes in user evaluations before and after the COVID-19 epidemic using particular sentiment analysis techniques and machine learning methods. By evaluating user attitudes across several life domains before and after the outbreak, the research hopes to capture users' nuanced emotional reactions and explore how these reactions are influenced by external events. The scope includes determining the most accurate machine learning and sentiment analysis methodologies for capturing these emotional shifts, as well as insights into the changing landscape of user preferences and behaviors in reaction to major events such as the COVID-19 epidemic.
+
+
 Research Questions
 
 Which features play a more decisive role in influencing app scores: user reviews, app pricing, or app genre? Which features can be best utilized to enhance the accuracy of the score prediction model?
