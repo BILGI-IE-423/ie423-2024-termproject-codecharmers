@@ -40,6 +40,8 @@ In dictionary-based methods, a list of initial words is created and then expande
 
 Another approach to sensitivity analysis involves machine learning algorithms, where data sets are classified into training and test sets for model training and analysis Supervised classification algorithms such as Naïve Bayes, Support Vector Machine (SVM) are often used ), and decision trees are used (Gamon, 2004 ). Bučar et al. (2018) developed a sentiment lexicon and labeled news corpora to analyze sentiments in Slovene texts. They found that Naïve Bayes performed better than SVM. Tiwari et al. (2020) used SVM, Naïve Bayes, and maximum entropy algorithms with n-gram feature extraction on a dataset of movie reviews. They observed that accuracy decreased as the n-gram values increased.
 
+Many studies have looked at app prediction by analyzing smartphone usage patterns, each using different methods and with a different level of success. In the study by Shin et al. (2012) Naïve Bayes model was used to predict app usage considering factors such as time of day and last used application, which led to a high predictive accuracy. In a study by Zou et al. (2013), various Bayesian models were evaluated, revealing that the Naïve Bayes model stood out with an impressive accuracy rate of 85%. Additionally, Huang et al. (2012) delved into context-based forecasting and discovered a significant link between application usage trends and the accuracy of predictions.
+
 
 
 # Gantt diagrams
@@ -169,6 +171,9 @@ Bučar, Jože & Žnidaršič, Martin & Povh, Janez. (2018). Annotated news corpo
 
 Cho H, Kim S, Lee J, Lee JS (2014) Data-driven integration of multiple sentiment dictionaries for lexicon-based sentiment classification of product reviews. Knowledge-Based Systems 71:61–71.
 
+C. Shin, J.-H. Hong, and A. K. Dey, ‘‘Understanding and prediction of
+mobile application usage for smart phones,’’ in Proc. ACM Conf. Ubiquitous Comput. (UbiComp), 2012, pp. 173–182.
+
 Dai, W., Xue, G.-R., Yang, Q., and Yu, Y. (2007). Transferring naive bayes classifiers for text classification. In Proceedings of the AAAI ’07, 22nd national conference on Artificial intelligence, pages 540–545.
 
 Gabrilovich, E. and Markovitch, S. (2007). Computing semantic relatedness using Wikipedia-based explicit semantic analysis. In Proceedings of the 20th International Joint Conference on Artificial Intelligence, volume 7, pages 1606–1611.
@@ -178,6 +183,8 @@ Gamon M (2004) Sentiment classification on customer feedback data: noisy data, l
 Gao, Yan & Mas, Jean. (2008). A comparison of the performance of pixel based and object based classifications over images with various spatial resolutions. Online Journal of Earth Science. 2. 27-35.
 
 Jurek-Loughrey, Anna & Mulvenna, Maurice & Bi, Yaxin. (2015). Improved lexicon-based sentiment analysis for social media analytics. Security Informatics. 4. 10.1186/s13388-015-0024-x.
+
+ K. Huang, C. Zhang, X. Ma, and G. Chen, ‘‘Predicting mobile application usage using contextual information,’’ in Proc. ACM Conf. UbiquitousComput. (UbiComp), 2012, pp. 1059–1065.
 
 Pan, S. J., Kwok, J. T., and Yang, Q. (2008). Transfer learning via dimensionality reduction. In Proceedings of the AAAI ’08, 23rd national conference on Artificial intelligence, pages 677–682.
 
