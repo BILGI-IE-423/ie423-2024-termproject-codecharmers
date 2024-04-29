@@ -22,9 +22,9 @@ gantt
     Feature Engineering and Encoding Techniques :         dp3, 2024-04-01, 2024-04-15
 
     section Exploratory Data Analysis (EDA)
-    Generation of Statistical Summaries         :         eda1, 2024-04-16, 2024-05-01
-    Examination of Data Structure               :         eda2, 2024-04-16, 2024-05-01
-    Analysis of Feature Relationships           :         eda3, 2024-04-16, 2024-05-01
+    Sentiment Analysis                          :         eda1, 2024-04-16, 2024-05-01
+    COVID-19 Impact Assessment                  :         eda2, 2024-04-16, 2024-05-01
+
 
     section Model Building (Splitting Train and Test Sets)
     Selection of Algorithms and Splitting      :         mb1, 2024-05-02, 2024-05-15
@@ -44,11 +44,6 @@ gantt
     section Model Deployment
     Transitioning the Model into Production   :         md1, 2024-06-16, 2024-06-19
     Accessibility Through APIs and Services   :         md2, 2024-06-16, 2024-06-19
-    Performance and Scalability Optimization :         md3, 2024-06-16, 2024-06-19
-
-    section Model Update and Maintenance
-    Continuous Monitoring and Evaluation     :         mu1, 2024-06-20, 2024-06-30
-    Updating and Refining the Model          :         mu2, 2024-06-20, 2024-06-30
-    Integration of Innovative Approaches     :         mu3, 2024-06-20, 2024-06-30
+    Performance and Scalability Optimization  :         md3, 2024-06-16, 2024-06-19
 
 ```
