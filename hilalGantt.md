@@ -22,8 +22,8 @@ gantt
     Feature Engineering and Encoding Techniques :         dp3, 2024-04-01, 2024-04-15
 
     section Exploratory Data Analysis (EDA)
-    Sentiment Analysis                          :         eda1, 2024-04-16, 2024-05-01
-    COVID-19 Impact Assessment                  :         eda2, 2024-04-16, 2024-05-01
+    Sentiment Analysis from Revie               :         eda1, 2024-04-16, 2024-05-01
+    Impact Assessment of the COVID-19 period    :         eda2, 2024-04-16, 2024-05-01
 
 
     section Model Building (Splitting Train and Test Sets)
