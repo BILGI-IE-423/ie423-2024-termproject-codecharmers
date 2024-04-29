@@ -4,14 +4,29 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import math
 
+dfChild = pd.read_csv("Apps.csv")
+dfChildReview = pd.read_csv("Reviews.csv")
 dfParent = pd.read_csv("googleplaystore.csv")
 dfParentReview = pd.read_csv("googleplaystore_user_reviews.csv")
 
 dfParent.rename(columns={"App": "App Name"}, inplace= True)
 dfParentReview.rename(columns={"App": "App Name"}, inplace= True)
-dfParentMerged= pd.DataFrame(pd.merge(dfParent, dfParentReview, on="App Name", how="inner"))
+dfChild.rename(columns={"title": "App Name"}, inplace= True)
 
+
+merged = pd.merge(dfParent['App Name'], dfChild['App Name'], how='outer', indicator=True)
+unmatched = merged[merged['_merge'] == 'left_only']['App Name']
+unmatched_2 = merged[merged['_merge'] == 'right_only']['App Name']
+dfParent = dfParent[~dfParent['App Name'].isin(unmatched)]
+dfChild = dfChild[~dfChild['App Name'].isin(unmatched_2)]
+dfParent = dfParent.drop_duplicates(['App Name'])
+dfChild = dfChild.drop_duplicates(['App Name'])
+
+dfParentMerged = pd.DataFrame(pd.merge(dfParent, dfParentReview, on="App Name", how="inner"))
 #print(dfParentMerged)
+#n = dfParentMerged[["App Name"]].nunique()
+#print(n)
+
 dfParentMerged.drop("Last Updated", axis=1, inplace=True)
 dfParentMerged.drop("Current Ver", axis=1, inplace= True)
 dfParentMerged.drop("Android Ver", axis=1, inplace=True)
