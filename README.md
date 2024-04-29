@@ -39,7 +39,11 @@ Techniques like Latent Dirichlet Allocation (Blei et al., 2003) or Latent Semant
 
 Another approach to sensitivity analysis involves machine learning algorithms, where data sets are classified into training and test sets for model training and analysis. Supervised classification algorithms such as Naïve Bayes, Support Vector Machine (SVM), and decision trees are often used (Gamon, 2004). Bučar et al. (2018) developed a sentiment lexicon and labeled news corpora to analyze sentiments in Slovene texts. They found that Naïve Bayes performed better than SVM. Tiwari et al. (2020) used SVM, Naïve Bayes, and maximum entropy algorithms with n-gram feature extraction on a dataset of movie reviews. They observed that accuracy decreased as the n-gram values increased.
 
-Many studies have looked at app prediction by analyzing smartphone usage patterns, each using different methods and with a different level of success. In the study by Shin et al. (2012) Naïve Bayes model was used to predict app usage considering factors such as time of day and last used application, which led to a high predictive accuracy. In a study by Zou et al. (2013), various Bayesian models were evaluated, revealing that the Naïve Bayes model stood out with an impressive accuracy rate of 85%. Additionally, Huang et al. (2012) delved into context-based forecasting and discovered a significant link between application usage trends and the accuracy of predictions.
+In different research papers, ensemble methods have been explored to tackle the hurdles of sentiment analysis by utilizing mathematical and statistical approaches like Gaussian distributions. However, these models are frequently seen as theoretical and lack real-world application (Buche et al., 2013). On the other hand, in a thorough exploration of machine learning, a separate study employed a variety of methods such as decision trees and neural networks to forecast app rankings by considering numerous features of the apps (Suleman et al., 2019). 
+
+Ratings are crucial because they directly impact an app's visibility and success. Apps with higher ratings are­ more likely to show up in the Google­ Play Store and attract new people­ to try the app. Sentime­nt analysis explores an intriguing realm: de­coding the nuanced expre­ssions embedded within re­views, including the intricate subte­xt conveyed through emojis. Emojis can help share­ feelings that words alone might not show. Studie­s show that emojis can share how people­ feel, and can help pre­dict ratings they might give to an app. Analyzing these alongside textual reviews offers a richer, more dimensional understanding of user opinions (Martens and Johann, 2017).
+
+
 
 # Gantt diagrams
 
@@ -160,6 +164,8 @@ gantt
 
 REFERENCES 
 
+A. Buche, D. Chandak, and A. Zadgaonkar, Opinion mining and analysis: a survey, arXiv preprintarXiv:1307.3336, 2013
+
 Bernabé-Moreno J, Tejeda-Lorente A, Herce-Zelaya J, Porcel C, Herrera-Viedma E (2020) A context-aware embeddings supported method to extract a fuzzy sentiment polarity dictionary. Knowledge-Based Systems 190:105236.
 
 Blei, D. M., Ng, A. Y., and Jordan, M. I. (2003). Latent Dirichlet allocation. The Journal of Machine Learning research, 3:993–1022.
@@ -170,6 +176,8 @@ Cho H, Kim S, Lee J, Lee JS (2014) Data-driven integration of multiple sentiment
 
 C. Shin, J.-H. Hong, and A. K. Dey, ‘‘Understanding and prediction of
 mobile application usage for smart phones,’’ in Proc. ACM Conf. Ubiquitous Comput. (UbiComp), 2012, pp. 173–182.
+
+D. Martens and T. Johann, On the emotion of users in appreviews, in Proc. IEEE/ACM Int. Workshop Emotion Awareness Softw. Eng. (Buenos Aires, Argentina), May 2017
 
 Dai, W., Xue, G.-R., Yang, Q., and Yu, Y. (2007). Transferring naive bayes classifiers for text classification. In Proceedings of the AAAI ’07, 22nd national conference on Artificial intelligence, pages 540–545.
 
@@ -182,6 +190,8 @@ Gao, Yan & Mas, Jean. (2008). A comparison of the performance of pixel based and
 Jurek-Loughrey, Anna & Mulvenna, Maurice & Bi, Yaxin. (2015). Improved lexicon-based sentiment analysis for social media analytics. Security Informatics. 4. 10.1186/s13388-015-0024-x.
 
  K. Huang, C. Zhang, X. Ma, and G. Chen, ‘‘Predicting mobile application usage using contextual information,’’ in Proc. ACM Conf. UbiquitousComput. (UbiComp), 2012, pp. 1059–1065.
+
+ M. Suleman, A. Malik, and S. S.Hussain,Google play storeapp ranking prediction using machine learning algorithm, Urdu News Headline, Text Classification by Using Different Machine Learning Algorithms, 2019.
 
 Pan, S. J., Kwok, J. T., and Yang, Q. (2008). Transfer learning via dimensionality reduction. In Proceedings of the AAAI ’08, 23rd national conference on Artificial intelligence, pages 677–682.
 
