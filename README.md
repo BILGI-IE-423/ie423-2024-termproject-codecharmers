@@ -192,7 +192,6 @@ Sam Scott and Stan Matwin. 1998. Text Classification Using WordNet Hypernyms. In
 
 Schouten, Kim & Frasincar, Flavius. (2015). Survey on Aspect-Level Sentiment Analysis. IEEE Transactions on Knowledge and Data Engineering. 28. 1-1. 10.1109/TKDE.2015.2485209.
 
-Scott, S. and Matwin, S. (1998). Text classification using WordNet hypernyms. In Use of WordNet in natural language processing systems: Proceedings of the conference, pages 38–44.
 
 Singh, Mangal & Nafis, Md Tabrez & Mani, Neel. (2016). Sentiment Analysis and Similarity Evaluation for Heterogeneous-Domain Product Reviews. International Journal of Computer Applications. 144. 16-19. 10.5120/ijca2016910112.
 
