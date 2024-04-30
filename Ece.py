@@ -48,12 +48,12 @@ merged_df["installs"] = merged_df["installs"].str.replace("+","")
 merged_df["installs"] = merged_df["installs"].str.replace(",","")
 merged_df["installs"] = merged_df["installs"].astype(float)
 
-
+#to detect the variables contains "Varies with device", "M", "k" in column "size"
 filtered_rows = merged_df.loc[merged_df["size"].str.contains("Varies with device")]
 filtered_rows_1 = merged_df.loc[merged_df["size"].str.contains("M")]
 filtered_rows_2 = merged_df.loc[merged_df["size"].str.contains("k")]
 
-
+#to delete the variables contains "Varies with device", "M", "k" in column "size"
 if not filtered_rows.empty:
     merged_df.loc[filtered_rows.index, "size"] = None
 if not filtered_rows_1.empty:
@@ -61,10 +61,12 @@ if not filtered_rows_1.empty:
 if not filtered_rows_2.empty:
     merged_df.loc[filtered_rows_2.index, "size"] = filtered_rows_2["size"].str.replace("k", "")
 
+#to convert the "size" column to float and multiply with 1024 to convert from bayt to megabayt
 merged_df["size"] = merged_df["size"].astype(float)
 merged_df["size"] = merged_df["size"] * 1024
 
 
+#to fill not available values on dataset
 merged_df["size"] = merged_df["size"].fillna(merged_df["size"].mean())
 merged_df["replyContent"] = merged_df["replyContent"].fillna("None")
 merged_df["rated_score"] = merged_df["rated_score"].fillna(merged_df["rated_score"].mean())
@@ -72,5 +74,3 @@ merged_df["reviews"] = merged_df["reviews"].fillna(0).astype(float)
 merged_df["ratings"] = merged_df["ratings"].fillna(merged_df["ratings"].mean())
 merged_df["released"] = merged_df["released"].fillna("None")
 
-
-print((merged_df["title"].unique()))
