@@ -12,6 +12,8 @@ df2 = pd.read_csv("Apps.csv")
 df1.rename(columns={"score": "avg_score"}, inplace=True)
 df2.rename(columns={"score": "rated_score"}, inplace=True)
 df1.rename(columns={"app_Id": "appId"}, inplace=True)
+
+#to merge Apps and Rewievs data 
 merged_df = pd.DataFrame(pd.merge(df1, df2, on="appId", how="inner"))
 
 
