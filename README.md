@@ -18,7 +18,7 @@ Which features play a more decisive role in influencing app scores: user reviews
 
 Which machine learning techniques may be used to fully comprehend the elements influencing the app installations' rating? How do these algorithms utilize features such as emotional content, pricing policies, user reviews, and other external factors to predict app installation numbers effectively?
 
-Considering the emotional changes in user evaluations before to and during COVID-19, what particular machine learning and sentiment analysis approaches can be used? In what ways do these studies most accurately capture the changes in users' emotional reactions before and after the epidemic in various spheres of life?
+Considering the emotional changes in user evaluations before and during COVID-19, what particular machine learning and sentiment analysis approaches can be used? In what ways do these studies most accurately capture the changes in users' emotional reactions before and after the epidemic in various spheres of life?
 
 
 # Related Works
