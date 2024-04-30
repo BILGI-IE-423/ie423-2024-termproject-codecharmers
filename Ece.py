@@ -4,18 +4,18 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import math
 
-
+#to import required datasets
 df1 = pd.read_csv("Reviews.csv")
 df2 = pd.read_csv("Apps.csv")
 
-
+#to change the column names
 df1.rename(columns={"score": "avg_score"}, inplace=True)
 df2.rename(columns={"score": "rated_score"}, inplace=True)
 df1.rename(columns={"app_Id": "appId"}, inplace=True)
 merged_df = pd.DataFrame(pd.merge(df1, df2, on="appId", how="inner"))
 
 
-
+#to drop useless columms
 merged_df.drop("userName", axis=1, inplace=True)
 merged_df.drop("userImage", axis=1, inplace=True)
 merged_df.drop("reviewCreatedVersion", axis=1, inplace=True)
@@ -28,7 +28,7 @@ merged_df.drop("contentRatingDescription", axis=1, inplace=True)
 merged_df.drop("reviewId", axis=1, inplace=True)
 
 
-
+#to convert data types
 merged_df["content"] = merged_df["content"].astype(str)
 merged_df["avg_score"] = merged_df["avg_score"].astype(float)
 merged_df["thumbsUpCount"] = merged_df["thumbsUpCount"].astype(float)
@@ -43,7 +43,7 @@ merged_df["ratings"] = merged_df["ratings"].astype(float)
 merged_df["contentRating"] = merged_df["contentRating"].astype(str)
 
 
-
+#we need co convert datas in install to proper float numbers
 merged_df["installs"] = merged_df["installs"].str.replace("+","")
 merged_df["installs"] = merged_df["installs"].str.replace(",","")
 merged_df["installs"] = merged_df["installs"].astype(float)
