@@ -39,11 +39,12 @@ dfParentMerged.drop("Sentiment", axis=1, inplace=True)
 dfParentMerged.drop("Sentiment_Polarity", axis=1, inplace=True)
 dfParentMerged.drop("Sentiment_Subjectivity", axis=1, inplace=True)
 
+# From now on all the iterations' aim is to set the correct type of the data
 
 # Tidied the size column whereas the steps:
 # Filled "Varies with device" rows with the mean of the size
-# Dropped M,k in order to make the column clean and ease the iterations
-# !!!
+# Dropped M,k in order to have unit as Bayt
+# Filled the blanks with the mean of the size
 filtered_rows = dfParentMerged.loc[dfParentMerged["Size"].str.contains("Varies with device")]
 filtered_rows_1 = dfParentMerged.loc[dfParentMerged["Size"].str.contains("M")]
 filtered_rows_2 = dfParentMerged.loc[dfParentMerged["Size"].str.contains("k")]
@@ -51,28 +52,27 @@ filtered_rows_2 = dfParentMerged.loc[dfParentMerged["Size"].str.contains("k")]
 if not filtered_rows.empty:
     dfParentMerged.loc[filtered_rows.index, "Size"] = None
 if not filtered_rows_1.empty:
-    dfParentMerged.loc[filtered_rows_1.index, "Size"] = filtered_rows_1["Size"].str.replace("M", "")
+    dfParentMerged.loc[filtered_rows_1.index, "Size"] = filtered_rows_1["Size"].str.replace("M", "").astype(float) * 1048576
 if not filtered_rows_2.empty:
-    dfParentMerged.loc[filtered_rows_2.index, "Size"] = filtered_rows_2["Size"].str.replace("k", "")
-
+    dfParentMerged.loc[filtered_rows_2.index, "Size"] = filtered_rows_2["Size"].str.replace("k", "").astype(float) * 1024
+    
 dfParentMerged["Size"] = dfParentMerged["Size"].astype(float)
-dfParentMerged["Size"] = dfParentMerged["Size"] * 1024
 
 dfParentMerged["Size"] = dfParentMerged["Size"].fillna(dfParentMerged["Size"].mean())
 #print(dfParentMerged["Size"])
 
-#Tidy Installs column
+#Tidied Installs column 
 dfParentMerged["Installs"] = dfParentMerged["Installs"].str.replace("+","", regex=False)
 dfParentMerged["Installs"] = dfParentMerged["Installs"].str.replace(",","", regex=False)
 dfParentMerged["Installs"] = dfParentMerged["Installs"].astype(float)
 #print(dfParentMerged["Installs"])
 
-#Tidy Price column
+#Tidied Price column
 dfParentMerged["Price"] = dfParentMerged["Price"].str.replace("$","", regex=False)
 dfParentMerged["Price"] = dfParentMerged["Price"].astype(float)
 #print(dfParentMerged["Price"])
 
-#Tidy Other columns
+#Tidied Other columns
 dfParentMerged["Rating"] = dfParentMerged["Rating"].astype(float)
 dfParentMerged["Reviews"] = dfParentMerged["Reviews"].astype(float)
 dfParentMerged["Type"] = dfParentMerged["Type"].astype(str)
