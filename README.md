@@ -154,11 +154,6 @@ gantt
     Accessibility Through APIs and Services   :         md2, 2024-06-16, 2024-06-19
     Performance and Scalability Optimization :         md3, 2024-06-16, 2024-06-19
 
-    section Model Update and Maintenance
-    Continuous Monitoring and Evaluation     :         mu1, 2024-06-20, 2024-06-30
-    Updating and Refining the Model          :         mu2, 2024-06-20, 2024-06-30
-    Integration of Innovative Approaches     :         mu3, 2024-06-20, 2024-06-30
-
    ```
 
 
