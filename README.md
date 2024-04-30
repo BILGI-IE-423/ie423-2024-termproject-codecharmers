@@ -78,9 +78,8 @@ gantt
     Feature Engineering and Encoding Techniques :         dp3, 2024-04-01, 2024-04-15
 
     section Exploratory Data Analysis (EDA)
-    Generation of Statistical Summaries         :         eda1, 2024-04-16, 2024-05-01
-    Examination of Data Structure               :         eda2, 2024-04-16, 2024-05-01
-    Analysis of Feature Relationships           :         eda3, 2024-04-16, 2024-05-01
+    Sentiment Analysis from Reviews             :         eda1, 2024-04-16, 2024-05-01
+    Impact Assessment of the COVID-19 period    :         eda2, 2024-04-16, 2024-05-01
 
     section Model Building (Splitting Train and Test Sets)
     Selection of Algorithms and Splitting      :         mb1, 2024-05-02, 2024-05-15
@@ -102,11 +101,6 @@ gantt
     Accessibility Through APIs and Services   :         md2, 2024-06-16, 2024-06-19
     Performance and Scalability Optimization :         md3, 2024-06-16, 2024-06-19
 
-    section Model Update and Maintenance
-    Continuous Monitoring and Evaluation     :         mu1, 2024-06-20, 2024-06-30
-    Updating and Refining the Model          :         mu2, 2024-06-20, 2024-06-30
-    Integration of Innovative Approaches     :         mu3, 2024-06-20, 2024-06-30
-
    ```
 ```mermaid
 gantt
@@ -126,9 +120,9 @@ gantt
     Proposal Writing                            :done,    d4, 2024-03-16, 2024-03-30
 
     section Data Preprocessing
-    Handling Missing and Outlier Values         :active,  dp1, 2024-04-01, 2024-04-15
-    Data Transformation and Normalization       :         dp2, 2024-04-01, 2024-04-15
-    Feature Engineering and Encoding Techniques :         dp3, 2024-04-01, 2024-04-15
+    Handling Missing and Outlier Values         :done,     dp1, 2024-04-01, 2024-04-15
+    Data Transformation and Normalization       :done,     dp2, 2024-04-01, 2024-04-15
+    Feature Engineering and Encoding Techniques :active,   dp3, 2024-04-01, 2024-04-15
 
     section Exploratory Data Analysis (EDA)
     Sentiment Analysis from Reviews             :         eda1, 2024-04-16, 2024-05-01
