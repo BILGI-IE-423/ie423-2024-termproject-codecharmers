@@ -17,9 +17,9 @@ gantt
     Proposal Writing                            :done,    d4, 2024-03-16, 2024-03-30
 
     section Data Preprocessing
-    Handling Missing and Outlier Values         :active,  dp1, 2024-04-01, 2024-04-15
-    Data Transformation and Normalization       :         dp2, 2024-04-01, 2024-04-15
-    Feature Engineering and Encoding Techniques :         dp3, 2024-04-01, 2024-04-15
+    Handling Missing and Outlier Values         :done,     dp1, 2024-04-01, 2024-04-15
+    Data Transformation and Normalization       :done,     dp2, 2024-04-01, 2024-04-15
+    Feature Engineering and Encoding Techniques :active,   dp3, 2024-04-01, 2024-04-15
 
     section Exploratory Data Analysis (EDA)
     Sentiment Analysis from Reviews             :         eda1, 2024-04-16, 2024-05-01
