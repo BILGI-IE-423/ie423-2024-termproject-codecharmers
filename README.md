@@ -44,6 +44,12 @@ In different research papers, ensemble methods have been explored to tackle the 
 Ratings are crucial because they directly impact an app's visibility and success. Apps with higher ratings are­ more likely to show up in the Google­ Play Store and attract new people­ to try the app. Sentime­nt analysis explores an intriguing realm: de­coding the nuanced expre­ssions embedded within re­views, including the intricate subte­xt conveyed through emojis. Emojis can help share­ feelings that words alone might not show. Studie­s show that emojis can share how people­ feel, and can help pre­dict ratings they might give to an app. Analyzing these alongside textual reviews offers a richer, more dimensional understanding of user opinions (Martens and Johann, 2017).
 
 
+# About Preprocessing Data
+
+We have 4 datasets, includes Google Play Apps and their reviews in terms of before and after Covid-19 pandemic. In python file called ‘Ece.py', the main purpose of this code is to clean and preprocess data from the "Reviews.csv" and "Apps.csv" datasets. It includes operations including merging the two datasets, addressing missing values, transforming data types, combining datasets, deleting unnecessary columns, renaming columns, and standardizing specific data formats. For example, it accepts 'Varies with device', 'M', and 'k' values in the 'size' column, deletes the rows containing them,  transforms install counts to relevant float numbers, and replaces missing values with means or suitable placeholders. It also translates data types to acceptable representations. Also, unnecessary colums are removed to reduce crowding. All things considered, the code makes sure the data is in a consistent and useable format for additional modeling or analysis. 
+
+
+
 
 # Gantt diagrams
 
