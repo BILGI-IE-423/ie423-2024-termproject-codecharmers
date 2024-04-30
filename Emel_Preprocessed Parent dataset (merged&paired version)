@@ -9,11 +9,13 @@ dfChildReview = pd.read_csv("Reviews.csv")
 dfParent = pd.read_csv("googleplaystore.csv")
 dfParentReview = pd.read_csv("googleplaystore_user_reviews.csv")
 
+# Identified and renamed the primary keys on the datasets 
 dfParent.rename(columns={"App": "App Name"}, inplace= True)
 dfParentReview.rename(columns={"App": "App Name"}, inplace= True)
 dfChild.rename(columns={"title": "App Name"}, inplace= True)
 
-
+# Paired the App Name column in order to have the same apps to analyze the affect of the external factor (covid-19) in further processes
+# Seperately dropped the unmatched ones in the datasets 
 merged = pd.merge(dfParent['App Name'], dfChild['App Name'], how='outer', indicator=True)
 unmatched = merged[merged['_merge'] == 'left_only']['App Name']
 unmatched_2 = merged[merged['_merge'] == 'right_only']['App Name']
@@ -22,11 +24,14 @@ dfChild = dfChild[~dfChild['App Name'].isin(unmatched_2)]
 dfParent = dfParent.drop_duplicates(['App Name'])
 dfChild = dfChild.drop_duplicates(['App Name'])
 
+# Merged the main 2 datasets in order to see the reviews and other details of the applications
+# Since the App Name column is updated the aim is to compare the reviews, emotions etc. with and without the effect of the external factor
 dfParentMerged = pd.DataFrame(pd.merge(dfParent, dfParentReview, on="App Name", how="inner"))
 #print(dfParentMerged)
 #n = dfParentMerged[["App Name"]].nunique()
 #print(n)
 
+# Dropped the unnecessary columns
 dfParentMerged.drop("Last Updated", axis=1, inplace=True)
 dfParentMerged.drop("Current Ver", axis=1, inplace= True)
 dfParentMerged.drop("Android Ver", axis=1, inplace=True)
@@ -35,7 +40,10 @@ dfParentMerged.drop("Sentiment_Polarity", axis=1, inplace=True)
 dfParentMerged.drop("Sentiment_Subjectivity", axis=1, inplace=True)
 
 
-#Tidy size column
+# Tidied the size column whereas the steps:
+# Filled "Varies with device" rows with the mean of the size
+# Dropped M,k in order to make the column clean and ease the iterations
+# !!!
 filtered_rows = dfParentMerged.loc[dfParentMerged["Size"].str.contains("Varies with device")]
 filtered_rows_1 = dfParentMerged.loc[dfParentMerged["Size"].str.contains("M")]
 filtered_rows_2 = dfParentMerged.loc[dfParentMerged["Size"].str.contains("k")]
