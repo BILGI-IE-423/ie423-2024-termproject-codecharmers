@@ -175,14 +175,17 @@ gantt
 
 When machine learning models are evaluated, especially when the results obtained from Random Forest , Linear Regression and Gradient Boosting Regressor models are examined, it is clearly seen that factors such as user comments (Reviews) and application type (Genres) affect application scores. It has been determined that especially in the Random Forest Regressor model, the "Reviews" and "Genres" features are decisive and these features are highly effective in score prediction. Therefore, user reviews and app type are among the most effective features for predicting app scores. These features can be optimally used to improve the accuracy of the score prediction model.  
 User reviews are valuable because they provide direct feedback about the quality of the app and user satisfaction. Additionally, the app type also plays an important role in score estimation as it reflects the app's overall category and target audience. App pricing may also be effective in score estimation, but the effect of this factor was seen to be less pronounced compared to others in the models used in this study.  
-While the Linear Regression model performed reasonably well with a mean square error of 0.0226 and an R-squared value of 0.5023 on the test set, the Gradient Boosting Regressor model achieved very low error rates and a high R-squared value of 0.9991, predicting application scores extremely accurately. It was seen that he did. Additionally, it was remarkable that the Random Forest Regressor model achieved accuracy scores of up to 100% in the training and test sets, showing that especially the "Reviews" (75.654%) and "Genres" (24.346%) features were decisive in score prediction. These results show that the most effective features for predicting app ratings are user reviews and app type.
+While the Linear Regression model performed reasonably well with a mean square error of 0.0226 and an R-squared value of 0.5023 on the test set, the Gradient Boosting Regressor model achieved very low error rates and a high R-squared value of 0.9991, predicting application scores extremely accurately. It was seen that he did. Additionally, it was remarkable that the Random Forest Regressor model achieved accuracy scores of up to 100% in the training and test sets, which tends to overfit the training data, showing that especially the "Reviews" (75.654%) and "Genres" (24.346%) features were decisive in score prediction. These results show that the most effective features for predicting app ratings are user reviews and app type.
 
 ![Ekran görüntüsü 2024-06-17 154033](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/6c406f68-84d7-46d7-a45d-f9c408b99602)  
 *Figure 1: Actual vs Predicted Ratings (Linear Regression)*
 ![Ekran görüntüsü 2024-06-17 154119](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/8210408c-89d4-4f34-bfcd-e8c33c6d7d5b)  
 *Figure 2: Actual vs Predicted Ratings (Gradient Boosting Regressor)*
+![WhatsApp Görsel 2024-06-18 saat 00 57 48_42400179](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/05fb704d-2e9a-4259-8d32-6097266ef517)
+*Figure 3: Actual vs Predicted Ratings (Random Forest)*
 ![Ekran görüntüsü 2024-06-17 154326](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/7b79ca6f-91f5-4068-9d35-e6d51d37cca6)  
-*Figure 3: Feature Importance for App Ratings*
+*Figure 4: Feature Importance for App Ratings*
+
 
 
 
@@ -195,38 +198,38 @@ The studies presented in the graphs on “SentimentAnalysisGraphs.ipynb” captu
 
 ![Ekran görüntüsü 2024-06-17 124639](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/0b46f365-c378-4ef4-958b-a819b8dd258f)
 
-*Figure 4: Sentiment Distribution Pre-COVID-19*
+*Figure 5: Sentiment Distribution Pre-COVID-19*
 ![Ekran görüntüsü 2024-06-17 124647](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/34a469e9-4f1a-4e2f-9be4-2ef9a2fcfbf6)
 
-*Figure 5: Sentiment Distribution Post-COVID-19*
+*Figure 6: Sentiment Distribution Post-COVID-19*
 
 The emotion distribution bar chart comparing pre-,and post-COVID reveals an obvious decrease in positive emotions and a little decline in negative emotions, with a notable increase in neutral sentiments following the COVID-19 pandemic. This implies that consumers' emotional responses during the epidemic were less judgmental or unsure.
 
 ![Ekran görüntüsü 2024-06-17 124615](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/a7438008-0c94-4303-b2d1-d1f638f19cd4)  
-*Figure 6: Sentiment Distribution Pre- and Post-COVID-19*
+*Figure 7: Sentiment Distribution Pre- and Post-COVID-19*
 
 The line graph shows the evolution of sentiment trends over time; it shows an obvious decrease in positive emotions prior to COVID-19 and an increase in neutral feelings in response, while negative sentiments stay mostly unchanged. This pattern shows a change in user responses, which may have been impacted by the pandemic's stress and uncertainty on a worldwide scale.
 
 ![Ekran görüntüsü 2024-06-17 124703](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/d57afbe2-74bc-4a23-9da3-e15b7a9c401a)  
-*Figure 7: Sentiment Trends in Pre- and Post-COVID-19*
+*Figure 8: Sentiment Trends in Pre- and Post-COVID-19*
 
 **Pre-COVID Genre Usage**: The bar chart shows high usage of Education and Photography apps before the pandemic, with other genres having significantly lower usage rates.  
 **During COVID Genre Usage**: There's a noticeable shift in genre usage during the pandemic, with Education and Photography remaining dominant, but there's a slight decrease in their proportion, indicating a diversification in app usage.
 
 ![Ekran görüntüsü 2024-06-17 132444](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/99834023-aa77-4f5d-8633-5adea258bc9e)  
-*Figure 8: Pre-COVID Genre Usage*
+*Figure 9: Pre-COVID Genre Usage*
 ![Ekran görüntüsü 2024-06-17 124727](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/461a2d21-c1b9-4359-af50-c386203f9849)  
-*Figure 9: During COVID Genre Usage*
+*Figure 10: During COVID Genre Usage*
 
 The comparison bar chart illustrates how consumption trends for different app genres changed. For instance, during the pandemic, there was a noticeable rise in the use of Tools and Art-Design apps, indicating changes in user requirements and activities. In contrast, Education and Photography apps continued to have significant utilization
 
 ![Ekran görüntüsü 2024-06-17 124739](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/2e554eb2-1dd1-4698-9950-949943f1c1ff)  
-*Figure 10: Genre Usage Comparision*
+*Figure 11: Genre Usage Comparision*
 
 Before and during the epidemic, the stacked bar chart offers a thorough analysis of the sentiment distribution across several app categories. Although there is an obvious increase in neutral opinions across all categories throughout the pandemic, areas with significant positive sentiments include Tools, Health & Fitness, and Education. This shows the need to apps that are in Tools, Health & Fitness, and Education genres increased during pandemic. Also, these apps made lives easier and changed the dynamics of education, workout, and business life on daily basis. 
 
 ![Ekran görüntüsü 2024-06-17 124801](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/2fc3fbaf-74d4-498d-9994-294be79a2ccf)  
-*Figure 11: Sentiment Distribution by Category*
+*Figure 12: Sentiment Distribution by Category*
 
 # Datasets Used
 
