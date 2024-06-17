@@ -235,7 +235,7 @@ Before and during the epidemic, the stacked bar chart offers a thorough analysis
    
 https://www.kaggle.com/datasets/lava18/google-play-store-apps?select=googleplaystore.csv
 
-2.Google Play Store Apps User - Reviews
+2.Google Play Store Apps - User Reviews
 
 https://www.kaggle.com/datasets/lava18/google-play-store-apps?select=googleplaystore_user_reviews.csv
 
