@@ -177,7 +177,7 @@ The studies presented in the graphs on “SentimentAnalysisGraphs.ipynb” captu
 Pre-COVID Sentiment Distribution: The pie chart indicates that before the pandemic, a majority of the sentiments were positive (65.1%), with negative sentiments at 26.1%, and neutral sentiments at 8.9%.
 Post-COVID Sentiment Distribution: The second pie chart shows a slight decrease in positive sentiments to 61%, a small decrease in negative sentiments to 24.4%, and an increase in neutral sentiments to 14.6%.
 
-<img src="![Ekran görüntüsü 2024-06-17 124639](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/0b46f365-c378-4ef4-958b-a819b8dd258f)" alt="Genre Usage Pre- and Post-COVID-19">
+![Ekran görüntüsü 2024-06-17 124639](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/0b46f365-c378-4ef4-958b-a819b8dd258f)" <alt="Genre Usage Pre- and Post-COVID-19">
 
 ![Ekran görüntüsü 2024-06-17 124647](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/34a469e9-4f1a-4e2f-9be4-2ef9a2fcfbf6)
 *Figure 2: Sentiment Distribution Post-COVID-19*
