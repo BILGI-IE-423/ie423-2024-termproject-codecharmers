@@ -182,8 +182,8 @@ When machine learning models are evaluated, especially when the results obtained
 
 The studies presented in the graphs on “SentimentAnalysisGraphs.ipynb” capture the changes in users' emotional reactions before and after the COVID-19 pandemic in several significant ways. Here's everything in detail:
 
-Pre-COVID Sentiment Distribution: The pie chart indicates that before the pandemic, a majority of the sentiments were positive (65.1%), with negative sentiments at 26.1%, and neutral sentiments at 8.9%.
-Post-COVID Sentiment Distribution: The second pie chart shows a slight decrease in positive sentiments to 61%, a small decrease in negative sentiments to 24.4%, and an increase in neutral sentiments to 14.6%.
+**Pre-COVID Sentiment Distribution**: The pie chart indicates that before the pandemic, a majority of the sentiments were positive (65.1%), with negative sentiments at 26.1%, and neutral sentiments at 8.9%.
+**Post-COVID Sentiment Distribution**: The second pie chart shows a slight decrease in positive sentiments to 61%, a small decrease in negative sentiments to 24.4%, and an increase in neutral sentiments to 14.6%.
 
 ![Ekran görüntüsü 2024-06-17 124639](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/0b46f365-c378-4ef4-958b-a819b8dd258f)
 *Figure 4: Sentiment Distribution Pre-COVID-19*
@@ -200,8 +200,8 @@ The line graph shows the evolution of sentiment trends over time; it shows an ob
 ![Ekran görüntüsü 2024-06-17 124703](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/d57afbe2-74bc-4a23-9da3-e15b7a9c401a)
 *Figure 7: Sentiment Trends in Pre- and Post-COVID-19*
 
-Pre-COVID Genre Usage: The bar chart shows high usage of Education and Photography apps before the pandemic, with other genres having significantly lower usage rates.
-During COVID Genre Usage: There's a noticeable shift in genre usage during the pandemic, with Education and Photography remaining dominant, but there's a slight decrease in their proportion, indicating a diversification in app usage.
+**Pre-COVID Genre Usage**: The bar chart shows high usage of Education and Photography apps before the pandemic, with other genres having significantly lower usage rates.
+**During COVID Genre Usage**: There's a noticeable shift in genre usage during the pandemic, with Education and Photography remaining dominant, but there's a slight decrease in their proportion, indicating a diversification in app usage.
 
 ![Ekran görüntüsü 2024-06-17 132444](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/99834023-aa77-4f5d-8633-5adea258bc9e)
 *Figure 8: Pre-COVID Genre Usage*
