@@ -169,11 +169,11 @@ gantt
 
 When machine learning models are evaluated, especially when the results obtained from Random Forest , Linear Regression and Gradient Boosting Regressor models are examined, it is clearly seen that factors such as user comments (Reviews) and application type (Genres) affect application scores. It has been determined that especially in the Random Forest Regressor model, the "Reviews" and "Genres" features are decisive and these features are highly effective in score prediction. Therefore, user reviews and app type are among the most effective features for predicting app scores. These features can be optimally used to improve the accuracy of the score prediction model. User reviews are valuable because they provide direct feedback about the quality of the app and user satisfaction. Additionally, the app type also plays an important role in score estimation as it reflects the app's overall category and target audience. App pricing may also be effective in score estimation, but the effect of this factor was seen to be less pronounced compared to others in the models used in this study. While the Linear Regression model performed reasonably well with a mean square error of 0.0226 and an R-squared value of 0.5023 on the test set, the Gradient Boosting Regressor model achieved very low error rates and a high R-squared value of 0.9991, predicting application scores extremely accurately. It was seen that he did. Additionally, it was remarkable that the Random Forest Regressor model achieved accuracy scores of up to 100% in the training and test sets, showing that especially the "Reviews" (75.654%) and "Genres" (24.346%) features were decisive in score prediction. These results show that the most effective features for predicting app ratings are user reviews and app type.
 
-![Ekran görüntüsü 2024-06-17 154033](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/6c406f68-84d7-46d7-a45d-f9c408b99602)
+![Ekran görüntüsü 2024-06-17 154033](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/6c406f68-84d7-46d7-a45d-f9c408b99602)  
 *Figure 1: Actual vs Predicted Ratings (Linear Regression)*
-![Ekran görüntüsü 2024-06-17 154119](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/8210408c-89d4-4f34-bfcd-e8c33c6d7d5b)
+![Ekran görüntüsü 2024-06-17 154119](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/8210408c-89d4-4f34-bfcd-e8c33c6d7d5b)  
 *Figure 2: Actual vs Predicted Ratings (Gradient Boosting Regressor)*
-![Ekran görüntüsü 2024-06-17 154326](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/7b79ca6f-91f5-4068-9d35-e6d51d37cca6)
+![Ekran görüntüsü 2024-06-17 154326](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/7b79ca6f-91f5-4068-9d35-e6d51d37cca6)  
 *Figure 3: Feature Importance for App Ratings*
 
 
@@ -185,9 +185,9 @@ The studies presented in the graphs on “SentimentAnalysisGraphs.ipynb” captu
 **Pre-COVID Sentiment Distribution**: The pie chart indicates that before the pandemic, a majority of the sentiments were positive (65.1%), with negative sentiments at 26.1%, and neutral sentiments at 8.9%.  
 **Post-COVID Sentiment Distribution**: The second pie chart shows a slight decrease in positive sentiments to 61%, a small decrease in negative sentiments to 24.4%, and an increase in neutral sentiments to 14.6%.
 
-![Ekran görüntüsü 2024-06-17 124639](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/0b46f365-c378-4ef4-958b-a819b8dd258f)  
+![Ekran görüntüsü 2024-06-17 124639](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/0b46f365-c378-4ef4-958b-a819b8dd258f)
 *Figure 4: Sentiment Distribution Pre-COVID-19*
-![Ekran görüntüsü 2024-06-17 124647](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/34a469e9-4f1a-4e2f-9be4-2ef9a2fcfbf6)  
+![Ekran görüntüsü 2024-06-17 124647](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/34a469e9-4f1a-4e2f-9be4-2ef9a2fcfbf6)
 *Figure 5: Sentiment Distribution Post-COVID-19*
 
 The emotion distribution bar chart comparing pre-,and post-COVID reveals an obvious decrease in positive emotions and a little decline in negative emotions, with a notable increase in neutral sentiments following the COVID-19 pandemic. This implies that consumers' emotional responses during the epidemic were less judgmental or unsure.
