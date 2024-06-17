@@ -64,7 +64,7 @@ Ratings are crucial because they directly impact an app's visibility and success
 
 # About Preprocessing Data
 The initial step in our project involves loading the data from the provided CSV files. We are utilizing four main datasets, each containing specific information about Google Play Store applications and their user reviews. Below are the details of the files used and their contents:
-Files Used
+
 1.	googleplaystore.csv:
 o	This file contains comprehensive information about various applications available on the Google Play Store. The data includes details such as app names, categories, ratings, number of reviews, size, installs, type, price, content rating, genres, last updated date, current version, and Android version required.
 2.	googleplaystore_user_reviews.csv:
