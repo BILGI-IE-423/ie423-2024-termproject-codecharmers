@@ -19,9 +19,15 @@ This study aims to comprehensively analyze the factors influencing mobile app ra
 
 # Scope of the Project
 
-This study intends to conduct a thorough investigation into the elements that influence mobile app evaluations. It focuses on such as user reviews, app pricing, and app genres to identify their proportional value in deciding app scores. The research will investigate several machine learning techniques to acquire a thorough understanding of the elements that influence app installation ratings. By combining features such as emotional content gathered from user reviews, pricing policies, and other external factors, the project hopes to create predictive models capable of accurately projecting app download numbers.  
+This project, conducted using comprehensive datasets obtained from Google Play Store and other mobile application platforms, aims to understand the market performance, user experience, and emotional responses of mobile applications. The project will extensively analyze fundamental features such as application names, categories, rating scores, download counts, and sentiment analysis results derived from user reviews.
 
-Moreover, the study will investigate the emotional changes in user evaluations before and after the COVID-19 epidemic using particular sentiment analysis techniques and machine learning methods. By evaluating user attitudes across several life domains before and after the outbreak, the research hopes to capture users' nuanced emotional reactions and explore how these reactions are influenced by external events. The scope includes determining the most accurate machine learning and sentiment analysis methodologies for capturing these emotional shifts, as well as insights into the changing landscape of user preferences and behaviors in reaction to major events such as the COVID-19 epidemic.
+Key focuses of the project include:
+
+The study leverages datasets from Google Play Store and other mobile platforms to comprehend the market performance, user experience, and emotional responses associated with mobile applications.
+
+It will delve into basic features like application names, categories, rating scores, download counts, along with detailed analysis of sentiment analysis results from user reviews, aiming to provide in-depth insights into how each application is perceived among users.
+
+Comparative analysis will evaluate changes in user perceptions of applications before and after the Covid-19 period.
 
 
 # Research Questions
