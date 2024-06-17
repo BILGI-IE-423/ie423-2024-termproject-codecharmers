@@ -182,7 +182,7 @@ While the Linear Regression model performed reasonably well with a mean square e
 
 # Emotional Studies: Before and After the Pandemic
 
-The studies presented in the graphs on “SentimentAnalysisGraphs.ipynb” capture the changes in users' emotional reactions before and after the COVID-19 pandemic in several significant ways. Here's everything in detail:
+The studies presented in the graphs on “SentimentAnalysisGraphs.ipynb” capture the changes in users' emotional reactions before and after the COVID-19 pandemic in several significant ways.By reading the datasets, column names were standardized and datasets were merged. Sentiment analysis was performed on the “content” column using TextBlob from the merged dataset. This analysis resulted in the calculation of sensitivity, polarity, and subjectivity values ​​for each review. The data was divided into pre-COVID-19 and post-COVID-19 periods and saved in separate CSV files. Both CSV files included sentiment analysis results based on the "content" column. This process aimed to analyze sentiment in app reviews and their changes over time. Here's everything in detail:
 
 **Pre-COVID Sentiment Distribution**: The pie chart indicates that before the pandemic, a majority of the sentiments were positive (65.1%), with negative sentiments at 26.1%, and neutral sentiments at 8.9%.  
 **Post-COVID Sentiment Distribution**: The second pie chart shows a slight decrease in positive sentiments to 61%, a small decrease in negative sentiments to 24.4%, and an increase in neutral sentiments to 14.6%.
