@@ -64,12 +64,7 @@ Ratings are crucial because they directly impact an app's visibility and success
 
 # About Preprocessing Data
 
-We have 4 datasets, includes Google Play Apps, their technical details and reviews in terms of before and after Covid-19 pandemic. 
-In python file called ‘Ece.py', the main purpose of this code is to clean and preprocess data from the "Reviews.csv" and "Apps.csv" datasets. It includes operations including merging the two datasets, addressing missing values, transforming data types, combining datasets, deleting unnecessary columns, renaming columns, and standardizing specific data formats. For example, it accepts 'Varies with device', 'M', and 'k' values in the 'size' column, deletes the rows containing them,  transforms install counts to relevant float numbers, and replaces missing values with means or suitable placeholders. It also translates data types to acceptable representations. Also, unnecessary colums are removed to reduce crowding. All things considered, the code makes sure the data is in a consistent and useable format for additional modeling or analysis. 
 
-On Emel_Preprocessed Parent dataset file, "googleplaystore.csv" and "googleplaystore_user_reviews.csv" datasets were merged according to our project's goal. Insufficient columns were identified and dropped whereas the rest were merged into one. Common applications from both datasets were chosen since the generated dataset aims to provide predictions using technical details and reviews and also make emotional analyses. In order to fit the data, the types were redefined. All the data below "Size" column were converted to bytes and the empty rows were filled by the mean value. In order to make sure that the data under "Size", "Installs" and "Price" columns were typed as float, the symbols were eliminated.
-
-On Paired Parent&Child App Names file the unmatched apps from "googleplaystore.csv" and "Apps.csv" were dropped in order to analyze and see the technical details of these apps with adn without the effect of external factor (covid-19). 
 
 # Gantt diagrams
 
