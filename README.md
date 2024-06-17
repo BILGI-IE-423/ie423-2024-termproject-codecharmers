@@ -190,14 +190,15 @@ The emotion distribution bar chart comparing pre-,and post-COVID reveals an obvi
 The line graph shows the evolution of sentiment trends over time; it shows an obvious decrease in positive emotions prior to COVID-19 and an increase in neutral feelings in response, while negative sentiments stay mostly unchanged. This pattern shows a change in user responses, which may have been impacted by the pandemic's stress and uncertainty on a worldwide scale.
 
 ![Ekran görüntüsü 2024-06-17 124703](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/d57afbe2-74bc-4a23-9da3-e15b7a9c401a)
-
+*Figure 4: Sentiment Trends in Pre- and Post-COVID-19*
 
 Pre-COVID Genre Usage: The bar chart shows high usage of Education and Photography apps before the pandemic, with other genres having significantly lower usage rates.
 During COVID Genre Usage: There's a noticeable shift in genre usage during the pandemic, with Education and Photography remaining dominant, but there's a slight decrease in their proportion, indicating a diversification in app usage.
 
 ![Ekran görüntüsü 2024-06-17 132444](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/99834023-aa77-4f5d-8633-5adea258bc9e)
+*Figure 5: Pre-COVID Genre Usage*
 ![Ekran görüntüsü 2024-06-17 124727](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/461a2d21-c1b9-4359-af50-c386203f9849)
-
+*Figure 6: Post-COVID Genre Usage*
 
 The comparison bar chart illustrates how consumption trends for different app genres changed. For instance, during the pandemic, there was a noticeable rise in the use of Tools and Art-Design apps, indicating changes in user requirements and activities. In contrast, Education and Photography apps continued to have significant utilization
 
