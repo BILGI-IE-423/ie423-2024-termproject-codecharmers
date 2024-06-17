@@ -76,57 +76,8 @@ o	This file includes user reviews for the applications listed in Apps.csv. It co
 
 
 
-# Gantt diagrams
+# Project Timeline and Deliverables
 
-## Syntax
-
-```
-gantt
-    title Machine Learning Project Timeline
-
-    dateFormat  YYYY-MM-DD
-    section Problem Analysis
-    Importance and Impact of the Problem        :done,    p1, 2024-03-01, 2024-03-15
-    Nature of the Problem                       :done,    p2, 2024-03-01, 2024-03-15
-    Determination of Success Criteria           :done,    p3, 2024-03-01, 2024-03-15
-    Formulation of Research Questions           :done,    p4, 2024-03-01, 2024-03-15
-
-    section Data Collection
-    Identification of Potential Data Sources    :done,    d1, 2024-03-16, 2024-03-30
-    Evaluation of Data Accuracy and Cleanliness :done,    d2, 2024-03-16, 2024-03-30
-    Consideration of Ethical and Legal Constraints :done, d3, 2024-03-16, 2024-03-30
-    Proposal Writing                            :done,    d4, 2024-03-16, 2024-03-30
-
-    section Data Preprocessing
-    Handling Missing and Outlier Values         :done,    dp1, 2024-04-01, 2024-04-15
-    Data Transformation and Normalization       :done,    dp2, 2024-04-01, 2024-04-15
-    Feature Engineering and Encoding Techniques :done,     dp3, 2024-04-01, 2024-04-15
-
-    section Exploratory Data Analysis (EDA)
-    Sentiment Analysis from Reviews             :done,     eda1, 2024-04-16, 2024-05-01
-    Impact Assessment of the COVID-19 period    :done,     eda2, 2024-04-16, 2024-05-01
-
-    section Model Building (Splitting Train and Test Sets)
-    Selection of Algorithms and Splitting      :done,    mb1, 2024-05-02, 2024-05-15
-    Model Training and Evaluation              :done,     mb2, 2024-05-02, 2024-05-15
-    Hyperparameter Tuning and Adjustment       :done,     mb3, 2024-05-02, 2024-05-15
-
-    section Model Evaluation
-    Selection and Application of Metrics       :done,     me1, 2024-05-16, 2024-05-30
-    Assessment of Confusion Matrix, ROC Curve  :done,     me2, 2024-05-16, 2024-05-30
-    Evaluation of Model Generalization         :done,     me3, 2024-05-16, 2024-05-30
-
-    section Model Optimization
-    Methods for Hyperparameter Optimization    :done,     mo1, 2024-06-01, 2024-06-15
-    Techniques for Feature Selection           :done,     mo2, 2024-06-01, 2024-06-15
-    Ensemble Methods and Stacking              :done,    mo3, 2024-06-01, 2024-06-15
-
-    section Model Deployment
-    Transitioning the Model into Production   :done,     md1, 2024-06-16, 2024-06-19
-    Accessibility Through APIs and Services   :done,     md2, 2024-06-16, 2024-06-19
-    Performance and Scalability Optimization :done    md3, 2024-06-16, 2024-06-19
-
-   ```
 ```mermaid
 gantt
     title Machine Learning Project Timeline
@@ -262,24 +213,24 @@ Applying clustering algorithms (e.g., K-means) to segment users based on their r
 # Datasets Used
 
 
-1.Google Play Store Apps
+1. Google Play Store Apps
    
 https://www.kaggle.com/datasets/lava18/google-play-store-apps?select=googleplaystore.csv
 
-2.Google Play Store Apps - User Reviews
+2. Google Play Store Apps - User Reviews
 
 https://www.kaggle.com/datasets/lava18/google-play-store-apps?select=googleplaystore_user_reviews.csv
 
-3.Google Play Store Apps Reviews (+110K Comment)-Apps
+3. Google Play Store Apps Reviews (+110K Comment)-Apps
 
 https://www.kaggle.com/datasets/mehdislim01/google-play-store-apps-reviews-110k-comment?select=Apps.csv
 
-4.Google Play Store Apps Reviews (+110K Comment)-Reviews
+4. Google Play Store Apps Reviews (+110K Comment)-Reviews
 
 https://www.kaggle.com/datasets/mehdislim01/google-play-store-apps-reviews-110k-comment?select=Reviews.csv
 
 
-REFERENCES 
+## REFERENCES 
 
 A. Buche, D. Chandak, and A. Zadgaonkar, Opinion mining and analysis: a survey, arXiv preprintarXiv:1307.3336, 2013
 
