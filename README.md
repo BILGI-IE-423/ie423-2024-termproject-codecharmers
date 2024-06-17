@@ -226,26 +226,26 @@ Before and during the epidemic, the stacked bar chart offers a thorough analysis
 ![Ekran görüntüsü 2024-06-17 124801](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/2fc3fbaf-74d4-498d-9994-294be79a2ccf)  
 *Figure 12: Sentiment Distribution by Category*  
 
-#Future Works
+# Future Works
 
 To improve the project that includes score prediction models and insights, the following steps can be implemented to make the scope of the project more comprehensive:
 
-**Data Augmentation**
+**Data Augmentation:**
 Data augmentation artificially increases the training set by creating modified copies of a dataset using existing data. Generating synthetic data to augment the training set, especially for underrepresented categories or features, might make our model more reliable and stronger.
 
-**Stacking**
+**Stacking:**
 Combining predictions from multiple models (e.g., Random Forest, Gradient Boosting, Linear Regression) would create a more robust and accurate ensemble model.
 
-**Topic Modeling**
+**Topic Modeling:**
 Latent Dirichlet Allocation (LDA) is a probabilistic model that generates a set of topics, each represented by a distribution over words, for a given corpus of documents. Implementing LDA to identify key themes and topics within user reviews would significantly improve our predictions.
 
-**Deep Learning Models**
+**Deep Learning Models:**
 To improve the model, implementing learning architectures such as LSTM and Transformer models might be effective for handling sequential and text data.
 
-**Emotion Detection**
+**Emotion Detection:**
 Using emotion detection algorithms to classify reviews into specific emotional categories (e.g., joy, anger, sadness) would enhance the project’s comprehensiveness in emotion studies.
 
-**User Segmentation**
+**User Segmentation:**
 Applying clustering algorithms (e.g., K-means) to segment users based on their reviews, ratings, and installation behaviors is preferable to gain deeper insights into user behavior and preferences through segment specific analytics. This would allow the development of personalized recommendations and targeted marketing strategies based on user segments.
 
 
