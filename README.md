@@ -23,11 +23,11 @@ This project, conducted using comprehensive datasets obtained from Google Play S
 
 Key focuses of the project include:
 
-The study leverages datasets from Google Play Store and other mobile platforms to comprehend the market performance, user experience, and emotional responses associated with mobile applications.
+- The study leverages datasets from Google Play Store and other mobile platforms to comprehend the market performance, user experience, and emotional responses associated with mobile applications.
 
-It will delve into basic features like application names, categories, rating scores, download counts, along with detailed analysis of sentiment analysis results from user reviews, aiming to provide in-depth insights into how each application is perceived among users.
+- It will delve into basic features like application names, categories, rating scores, download counts, along with detailed analysis of sentiment analysis results from user reviews, aiming to provide in-depth insights into how each application is perceived among users.
 
-Comparative analysis will evaluate changes in user perceptions of applications before and after the Covid-19 period.
+- Comparative analysis will evaluate changes in user perceptions of applications before and after the Covid-19 period.
 
 
 # Research Questions
