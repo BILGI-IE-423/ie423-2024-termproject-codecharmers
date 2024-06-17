@@ -228,9 +228,10 @@ Before and during the epidemic, the stacked bar chart offers a thorough analysis
 ![Ekran görüntüsü 2024-06-17 124801](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/2fc3fbaf-74d4-498d-9994-294be79a2ccf)  
 *Figure 11: Sentiment Distribution by Category*
 
-#Datasets Used
+# Datasets Used
 
-1. Google Play Store Apps
+
+1.Google Play Store Apps
    
 https://www.kaggle.com/datasets/lava18/google-play-store-apps?select=googleplaystore.csv
 
