@@ -1,14 +1,14 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/N24Xct0L)
 
-Emel Çatiçdaba - 121203072
+Pınar Sude Gürdamar - 120203073
+
+Fatma Hilal Börklü - 119200087
 
 Ece Taş - 121203066
 
 İlayda İyikesici - 119203041
 
-Pınar Sude Gürdamar - 120203073
-
-Fatma Hilal Börklü - 119200087
+Emel Çatiçdaba - 121203072
 
 
 
@@ -87,33 +87,33 @@ gantt
     Proposal Writing                            :done,    d4, 2024-03-16, 2024-03-30
 
     section Data Preprocessing
-    Handling Missing and Outlier Values         :active,  dp1, 2024-04-01, 2024-04-15
-    Data Transformation and Normalization       :         dp2, 2024-04-01, 2024-04-15
-    Feature Engineering and Encoding Techniques :         dp3, 2024-04-01, 2024-04-15
+    Handling Missing and Outlier Values         :done,    dp1, 2024-04-01, 2024-04-15
+    Data Transformation and Normalization       :done,    dp2, 2024-04-01, 2024-04-15
+    Feature Engineering and Encoding Techniques :done,     dp3, 2024-04-01, 2024-04-15
 
     section Exploratory Data Analysis (EDA)
-    Sentiment Analysis from Reviews             :         eda1, 2024-04-16, 2024-05-01
-    Impact Assessment of the COVID-19 period    :         eda2, 2024-04-16, 2024-05-01
+    Sentiment Analysis from Reviews             :done,     eda1, 2024-04-16, 2024-05-01
+    Impact Assessment of the COVID-19 period    :done,     eda2, 2024-04-16, 2024-05-01
 
     section Model Building (Splitting Train and Test Sets)
-    Selection of Algorithms and Splitting      :         mb1, 2024-05-02, 2024-05-15
-    Model Training and Evaluation              :         mb2, 2024-05-02, 2024-05-15
-    Hyperparameter Tuning and Adjustment       :         mb3, 2024-05-02, 2024-05-15
+    Selection of Algorithms and Splitting      :done,    mb1, 2024-05-02, 2024-05-15
+    Model Training and Evaluation              :done,     mb2, 2024-05-02, 2024-05-15
+    Hyperparameter Tuning and Adjustment       :done,     mb3, 2024-05-02, 2024-05-15
 
     section Model Evaluation
-    Selection and Application of Metrics       :         me1, 2024-05-16, 2024-05-30
-    Assessment of Confusion Matrix, ROC Curve  :         me2, 2024-05-16, 2024-05-30
-    Evaluation of Model Generalization         :         me3, 2024-05-16, 2024-05-30
+    Selection and Application of Metrics       :done,     me1, 2024-05-16, 2024-05-30
+    Assessment of Confusion Matrix, ROC Curve  :done,     me2, 2024-05-16, 2024-05-30
+    Evaluation of Model Generalization         :done,     me3, 2024-05-16, 2024-05-30
 
     section Model Optimization
-    Methods for Hyperparameter Optimization    :         mo1, 2024-06-01, 2024-06-15
-    Techniques for Feature Selection           :         mo2, 2024-06-01, 2024-06-15
-    Ensemble Methods and Stacking              :         mo3, 2024-06-01, 2024-06-15
+    Methods for Hyperparameter Optimization    :done,     mo1, 2024-06-01, 2024-06-15
+    Techniques for Feature Selection           :done,     mo2, 2024-06-01, 2024-06-15
+    Ensemble Methods and Stacking              :done,    mo3, 2024-06-01, 2024-06-15
 
     section Model Deployment
-    Transitioning the Model into Production   :         md1, 2024-06-16, 2024-06-19
-    Accessibility Through APIs and Services   :         md2, 2024-06-16, 2024-06-19
-    Performance and Scalability Optimization :         md3, 2024-06-16, 2024-06-19
+    Transitioning the Model into Production   :done,     md1, 2024-06-16, 2024-06-19
+    Accessibility Through APIs and Services   :done,     md2, 2024-06-16, 2024-06-19
+    Performance and Scalability Optimization :done    md3, 2024-06-16, 2024-06-19
 
    ```
 ```mermaid
