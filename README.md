@@ -198,15 +198,17 @@ During COVID Genre Usage: There's a noticeable shift in genre usage during the p
 ![Ekran görüntüsü 2024-06-17 132444](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/99834023-aa77-4f5d-8633-5adea258bc9e)
 *Figure 5: Pre-COVID Genre Usage*
 ![Ekran görüntüsü 2024-06-17 124727](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/461a2d21-c1b9-4359-af50-c386203f9849)
-*Figure 6: Post-COVID Genre Usage*
+*Figure 6: During COVID Genre Usage*
 
 The comparison bar chart illustrates how consumption trends for different app genres changed. For instance, during the pandemic, there was a noticeable rise in the use of Tools and Art-Design apps, indicating changes in user requirements and activities. In contrast, Education and Photography apps continued to have significant utilization
 
 ![Ekran görüntüsü 2024-06-17 124739](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/2e554eb2-1dd1-4698-9950-949943f1c1ff)
+*Figure 7:Genre Usage Comparision*
 
 Before and during the epidemic, the stacked bar chart offers a thorough analysis of the sentiment distribution across several app categories. Although there is an obvious increase in neutral opinions across all categories throughout the pandemic, areas with significant positive sentiments include Tools, Health & Fitness, and Education. This shows the need to apps that are in Tools, Health & Fitness, and Education genres increased during pandemic. Also, these apps made lives easier and changed the dynamics of education, workout, and business life on daily basis. 
 
 ![Ekran görüntüsü 2024-06-17 124801](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/2fc3fbaf-74d4-498d-9994-294be79a2ccf)
+*Figure 7:Sentiment Comparision*
 
 
 
