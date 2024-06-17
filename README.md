@@ -61,6 +61,26 @@ In different research papers, ensemble methods have been explored to tackle the 
 
 Ratings are crucial because they directly impact an app's visibility and success. Apps with higher ratings are­ more likely to show up in the Google­ Play Store and attract new people­ to try the app. Sentime­nt analysis explores an intriguing realm: de­coding the nuanced expre­ssions embedded within re­views, including the intricate subte­xt conveyed through emojis. Emojis can help share­ feelings that words alone might not show. Studie­s show that emojis can share how people­ feel, and can help pre­dict ratings they might give to an app. Analyzing these alongside textual reviews offers a richer, more dimensional understanding of user opinions (Martens and Johann, 2017).
 
+# Datasets Used
+
+
+1. Google Play Store Apps
+   
+https://www.kaggle.com/datasets/lava18/google-play-store-apps?select=googleplaystore.csv
+
+2. Google Play Store Apps - User Reviews
+
+https://www.kaggle.com/datasets/lava18/google-play-store-apps?select=googleplaystore_user_reviews.csv
+
+3. Google Play Store Apps Reviews (+110K Comment)-Apps
+
+https://www.kaggle.com/datasets/mehdislim01/google-play-store-apps-reviews-110k-comment?select=Apps.csv
+
+4. Google Play Store Apps Reviews (+110K Comment)-Reviews
+
+https://www.kaggle.com/datasets/mehdislim01/google-play-store-apps-reviews-110k-comment?select=Reviews.csv
+
+
 
 # About Preprocessing Data
 The initial step in our project involves loading the data from the provided CSV files. We are utilizing four main datasets, each containing specific information about Google Play Store applications and their user reviews. Below are the details of the files used and their contents:
@@ -75,56 +95,6 @@ o	Similar to googleplaystore.csv, this file contains information about various a
 o	This file includes user reviews for the applications listed in Apps.csv. It contains details such as the app name, the review text, the translated review text, the sentiment (positive, negative, or neutral), and the sentiment polarity and subjectivity scores.
 
 
-
-# Project Timeline and Deliverables
-
-```mermaid
-gantt
-    title Machine Learning Project Timeline
-
-    dateFormat  YYYY-MM-DD
-    section Problem Analysis
-    Importance and Impact of the Problem        :done,    p1, 2024-03-01, 2024-03-15
-    Nature of the Problem                       :done,    p2, 2024-03-01, 2024-03-15
-    Determination of Success Criteria           :done,    p3, 2024-03-01, 2024-03-15
-    Formulation of Research Questions           :done,    p4, 2024-03-01, 2024-03-15
-
-    section Data Collection
-    Identification of Potential Data Sources    :done,    d1, 2024-03-16, 2024-03-30
-    Evaluation of Data Accuracy and Cleanliness :done,    d2, 2024-03-16, 2024-03-30
-    Consideration of Ethical and Legal Constraints :done, d3, 2024-03-16, 2024-03-30
-    Proposal Writing                            :done,    d4, 2024-03-16, 2024-03-30
-
-    section Data Preprocessing
-    Handling Missing and Outlier Values         :done,     dp1, 2024-04-01, 2024-04-15
-    Data Transformation and Normalization       :done,     dp2, 2024-04-01, 2024-04-15
-    Feature Engineering and Encoding Techniques :active,   dp3, 2024-04-01, 2024-04-15
-
-    section Exploratory Data Analysis (EDA)
-    Sentiment Analysis from Reviews             :         eda1, 2024-04-16, 2024-05-01
-    Impact Assessment of the COVID-19 period    :         eda2, 2024-04-16, 2024-05-01
-
-    section Model Building (Splitting Train and Test Sets)
-    Selection of Algorithms and Splitting      :         mb1, 2024-05-02, 2024-05-15
-    Model Training and Evaluation              :         mb2, 2024-05-02, 2024-05-15
-    Hyperparameter Tuning and Adjustment       :         mb3, 2024-05-02, 2024-05-15
-
-    section Model Evaluation
-    Selection and Application of Metrics       :         me1, 2024-05-16, 2024-05-30
-    Assessment of Confusion Matrix, ROC Curve  :         me2, 2024-05-16, 2024-05-30
-    Evaluation of Model Generalization         :         me3, 2024-05-16, 2024-05-30
-
-    section Model Optimization
-    Methods for Hyperparameter Optimization    :         mo1, 2024-06-01, 2024-06-15
-    Techniques for Feature Selection           :         mo2, 2024-06-01, 2024-06-15
-    Ensemble Methods and Stacking              :         mo3, 2024-06-01, 2024-06-15
-
-    section Model Deployment
-    Transitioning the Model into Production   :         md1, 2024-06-16, 2024-06-19
-    Accessibility Through APIs and Services   :         md2, 2024-06-16, 2024-06-19
-    Performance and Scalability Optimization :         md3, 2024-06-16, 2024-06-19
-
-   ```
 
 # The score prediction model and Features
 
@@ -210,24 +180,56 @@ Using emotion detection algorithms to classify reviews into specific emotional c
 Applying clustering algorithms (e.g., K-means) to segment users based on their reviews, ratings, and installation behaviors is preferable to gain deeper insights into user behavior and preferences through segment specific analytics. This would allow the development of personalized recommendations and targeted marketing strategies based on user segments.
 
 
-# Datasets Used
 
+# Project Timeline and Deliverables
 
-1. Google Play Store Apps
-   
-https://www.kaggle.com/datasets/lava18/google-play-store-apps?select=googleplaystore.csv
+```mermaid
+gantt
+    title Machine Learning Project Timeline
 
-2. Google Play Store Apps - User Reviews
+    dateFormat  YYYY-MM-DD
+    section Problem Analysis
+    Importance and Impact of the Problem        :done,    p1, 2024-03-01, 2024-03-15
+    Nature of the Problem                       :done,    p2, 2024-03-01, 2024-03-15
+    Determination of Success Criteria           :done,    p3, 2024-03-01, 2024-03-15
+    Formulation of Research Questions           :done,    p4, 2024-03-01, 2024-03-15
 
-https://www.kaggle.com/datasets/lava18/google-play-store-apps?select=googleplaystore_user_reviews.csv
+    section Data Collection
+    Identification of Potential Data Sources    :done,    d1, 2024-03-16, 2024-03-30
+    Evaluation of Data Accuracy and Cleanliness :done,    d2, 2024-03-16, 2024-03-30
+    Consideration of Ethical and Legal Constraints :done, d3, 2024-03-16, 2024-03-30
+    Proposal Writing                            :done,    d4, 2024-03-16, 2024-03-30
 
-3. Google Play Store Apps Reviews (+110K Comment)-Apps
+    section Data Preprocessing
+    Handling Missing and Outlier Values         :done,     dp1, 2024-04-01, 2024-04-15
+    Data Transformation and Normalization       :done,     dp2, 2024-04-01, 2024-04-15
+    Feature Engineering and Encoding Techniques :active,   dp3, 2024-04-01, 2024-04-15
 
-https://www.kaggle.com/datasets/mehdislim01/google-play-store-apps-reviews-110k-comment?select=Apps.csv
+    section Exploratory Data Analysis (EDA)
+    Sentiment Analysis from Reviews             :         eda1, 2024-04-16, 2024-05-01
+    Impact Assessment of the COVID-19 period    :         eda2, 2024-04-16, 2024-05-01
 
-4. Google Play Store Apps Reviews (+110K Comment)-Reviews
+    section Model Building (Splitting Train and Test Sets)
+    Selection of Algorithms and Splitting      :         mb1, 2024-05-02, 2024-05-15
+    Model Training and Evaluation              :         mb2, 2024-05-02, 2024-05-15
+    Hyperparameter Tuning and Adjustment       :         mb3, 2024-05-02, 2024-05-15
 
-https://www.kaggle.com/datasets/mehdislim01/google-play-store-apps-reviews-110k-comment?select=Reviews.csv
+    section Model Evaluation
+    Selection and Application of Metrics       :         me1, 2024-05-16, 2024-05-30
+    Assessment of Confusion Matrix, ROC Curve  :         me2, 2024-05-16, 2024-05-30
+    Evaluation of Model Generalization         :         me3, 2024-05-16, 2024-05-30
+
+    section Model Optimization
+    Methods for Hyperparameter Optimization    :         mo1, 2024-06-01, 2024-06-15
+    Techniques for Feature Selection           :         mo2, 2024-06-01, 2024-06-15
+    Ensemble Methods and Stacking              :         mo3, 2024-06-01, 2024-06-15
+
+    section Model Deployment
+    Transitioning the Model into Production   :         md1, 2024-06-16, 2024-06-19
+    Accessibility Through APIs and Services   :         md2, 2024-06-16, 2024-06-19
+    Performance and Scalability Optimization :         md3, 2024-06-16, 2024-06-19
+
+   ```
 
 
 ## REFERENCES 
