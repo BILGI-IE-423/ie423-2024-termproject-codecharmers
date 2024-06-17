@@ -188,8 +188,10 @@ The studies presented in the graphs on “SentimentAnalysisGraphs.ipynb” captu
 **Post-COVID Sentiment Distribution**: The second pie chart shows a slight decrease in positive sentiments to 61%, a small decrease in negative sentiments to 24.4%, and an increase in neutral sentiments to 14.6%.
 
 ![Ekran görüntüsü 2024-06-17 124639](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/0b46f365-c378-4ef4-958b-a819b8dd258f)
+
 *Figure 4: Sentiment Distribution Pre-COVID-19*
 ![Ekran görüntüsü 2024-06-17 124647](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/34a469e9-4f1a-4e2f-9be4-2ef9a2fcfbf6)
+
 *Figure 5: Sentiment Distribution Post-COVID-19*
 
 The emotion distribution bar chart comparing pre-,and post-COVID reveals an obvious decrease in positive emotions and a little decline in negative emotions, with a notable increase in neutral sentiments following the COVID-19 pandemic. This implies that consumers' emotional responses during the epidemic were less judgmental or unsure.
