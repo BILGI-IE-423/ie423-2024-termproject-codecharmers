@@ -193,7 +193,7 @@ The line graph shows the evolution of sentiment trends over time; it shows an ob
 Pre-COVID Genre Usage: The bar chart shows high usage of Education and Photography apps before the pandemic, with other genres having significantly lower usage rates.
 During COVID Genre Usage: There's a noticeable shift in genre usage during the pandemic, with Education and Photography remaining dominant, but there's a slight decrease in their proportion, indicating a diversification in app usage.
 
-![Ekran görüntüsü 2024-06-17 124716](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/b7de26bc-32ed-44a6-be7f-436a1601068e)
+![Ekran görüntüsü 2024-06-17 132444](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/99834023-aa77-4f5d-8633-5adea258bc9e)
 ![Ekran görüntüsü 2024-06-17 124727](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/461a2d21-c1b9-4359-af50-c386203f9849)
 
 
