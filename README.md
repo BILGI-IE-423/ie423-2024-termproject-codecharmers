@@ -193,7 +193,87 @@ While the Linear Regression model performed reasonably well with a mean square e
 ![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/f2490c71-90d4-433e-81f7-a0c38a2e714f)
 *Figure 2.5: Correlation Matrix for Features*
 ![Ekran görüntüsü 2024-06-17 154326](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/7b79ca6f-91f5-4068-9d35-e6d51d37cca6)  
-*Figure 2.6: Feature Importance for App Ratings*
+*Figure 2.6: Feature Importance for App Ratings*  
+
+When different SVM Models are implemented, such output is observed;  
+
+```plaintext
+         Linear Kernel SVM Results:
+Accuracy: 1.0
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00         9
+           1       1.00      1.00      1.00      3441
+           2       1.00      1.00      1.00       128
+           3       1.00      1.00      1.00       275
+           4       1.00      1.00      1.00      8842
+           5       1.00      1.00      1.00       853
+           6       1.00      1.00      1.00        48
+           7       1.00      1.00      1.00      9924
+           8       1.00      1.00      1.00       227
+           9       1.00      1.00      1.00         7
+
+    accuracy                           1.00     23754
+   macro avg       1.00      1.00      1.00     23754
+weighted avg       1.00      1.00      1.00     23754
+
+Polynomial Kernel SVM Results:
+Accuracy: 1.0
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00         9
+           1       1.00      1.00      1.00      3441
+           2       1.00      1.00      1.00       128
+           3       1.00      1.00      1.00       275
+           4       1.00      1.00      1.00      8842
+           5       1.00      1.00      1.00       853
+           6       1.00      1.00      1.00        48
+           7       1.00      1.00      1.00      9924
+           8       1.00      1.00      1.00       227
+           9       1.00      1.00      1.00         7
+
+    accuracy                           1.00     23754
+   macro avg       1.00      1.00      1.00     23754
+weighted avg       1.00      1.00      1.00     23754
+
+RBF Kernel SVM Results:
+Accuracy: 1.0
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00         9
+           1       1.00      1.00      1.00      3441
+           2       1.00      1.00      1.00       128
+           3       1.00      1.00      1.00       275
+           4       1.00      1.00      1.00      8842
+           5       1.00      1.00      1.00       853
+           6       1.00      1.00      1.00        48
+           7       1.00      1.00      1.00      9924
+           8       1.00      1.00      1.00       227
+           9       1.00      1.00      1.00         7
+
+    accuracy                           1.00     23754
+   macro avg       1.00      1.00      1.00     23754
+weighted avg       1.00      1.00      1.00     23754
+
+```
+
+When we look below, the class distribution between rating values of apps is given. It appears that the target variable "Rating" has only 10 unique values, and data is distributed quite unevenly. The most common values are 4.7 and 4.4, while the other values are much less frequent. This situation may explain why the models are overfitting and showing perfect performance across all classes. 
+
+```plaintext
+Distribution 
+4.7    49931
+4.4    44268
+4.1    16806
+4.5     4215
+4.3     1354
+4.8     1188
+4.2      685
+4.6      248
+4.0       50
+4.9       22
+Name: Rating, dtype: int64
+```
+
 
 
 
