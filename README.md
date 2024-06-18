@@ -169,8 +169,10 @@ max                  0.900000
 # Insights from Dataset
 
 ![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/f20c4202-fc48-4331-b91e-1bd9435e4ed7)
-*Figure 1.1: Correlation Between Numeric Features*
+*Figure 1.1: Correlation Between Numerical Features*
 
+![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/c3b5f5b0-25fb-4ace-a07d-b4cbed17e740)
+*Figure 1.2: Pair Plot of Numeric Features*
 
 
 # The score prediction model and Features
