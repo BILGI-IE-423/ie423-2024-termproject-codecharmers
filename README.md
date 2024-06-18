@@ -84,7 +84,7 @@ https://www.kaggle.com/datasets/mehdislim01/google-play-store-apps-reviews-110k-
 
 # About Preprocessing Data
 
-Loading Data
+**Loading Data**
 
 The initial step in the project involves loading the data from the provided CSV files. Utilized four main datasets, each containing specific information about Google Play Store applications and their user reviews. Below are the details of the files used and their contents:
 
@@ -107,16 +107,16 @@ Combines app data from dfChildApps with their respective user reviews from dfChi
 Combines the previously merged DataFrame mergedMain with selected columns from mergedChild to include additional review information.
 
 
-Handling Outliers
+**Handling Outliers**
 
 Managing the outliers the process is straightforward. For every column, the first quartile (Q1) and the third quartile (Q3) which represent the 25th and 75th percentiles were computed. Subsequently, the Interquartile Range (IQR) as the difference between Q3 and Q1, for a better understanding of the spread of the middle 50% of the data. The acceptable range is then determined by computing the upper and lower bounds. Which are set to be '±1.5 x IQR'. Any values outside this range are considered outliers and are replaced with NaN to prevent them from skewing the analysis. 
 
-Data Cleaning and Formatting
+**Data Cleaning and Formatting**
 
 To prepare the dataset for analysis, several cleaning and formatting steps are performed. First, the 'Size' column was standardized by replacing 'Varies with device' entries with NaN, removing 'M' suffixes for megabytes and converting 'k' suffixes for kilobytes to scientific notation (e-3), ensuring all values were numeric. Rows with missing 'Review Date' entries were dropped to maintain data integrity. Additionally, rows with NaN or non-numeric values in the 'Size' column were also removed to ensure consistency. Numeric columns like 'Installs' were cleaned by removing special characters and converting them to integers, while 'Price' underwent transformations to remove dollar signs and convert to floats. 'Size' and 'Rating' columns were explicitly converted to float types for uniformity. 'Review Date' was converted to datetime format and reformatted to 'dd-mm-yyyy' to standardize its presentation. Finally, missing values in numeric columns were filled with zeros to facilitate accurate analysis. 
 
 
-Scaling Numeric Features and Encoding Categorical Variables
+**Scaling Numeric Features and Encoding Categorical Variables**
 
 Numeric features such as 'Rating', 'Reviews', 'Size', 'Installs', 'Sentiment_Polarity', and 'Sentiment_Subjectivity' are standardized using StandardScaler() from scikit-learn. Ensuring that features with varying scales contribute equally without dominance due to the higher magnitude, is achieved by standartizing the range of numeric data through scaling. This transformation centers the data around zero and scales it to have unit variance.
 
@@ -136,7 +136,7 @@ The training set (X_train and y_train) is used to capture the patterns and the r
 
 The test set (X_test and y_test) serves as an independent dataset used to evaluate the trained models' performance. It simulates real-world scenarios where models encounter new, blind, previously unseen data.
 
-Exploratory Data Analysis (EDA)
+**Exploratory Data Analysis (EDA)**
 
 For understanding the basic characteristics of the dataset and gain initial insights, basic statistical analysis is performed. 
 
@@ -166,7 +166,6 @@ min                  0.000000
 max                  0.900000
 ```
 
-# Insights from Dataset
 
 ![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/f20c4202-fc48-4331-b91e-1bd9435e4ed7)
 *Figure 1.1: Correlation Between Numerical Features*
