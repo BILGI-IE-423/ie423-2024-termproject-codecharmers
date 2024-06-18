@@ -83,7 +83,9 @@ https://www.kaggle.com/datasets/mehdislim01/google-play-store-apps-reviews-110k-
 
 
 # About Preprocessing Data
+
 Loading Data
+
 The initial step in the project involves loading the data from the provided CSV files. Utilized four main datasets, each containing specific information about Google Play Store applications and their user reviews. Below are the details of the files used and their contents:
 
 1.	googleplaystore.csv:
@@ -106,12 +108,16 @@ Combines the previously merged DataFrame mergedMain with selected columns from m
 
 
 Handling Outliers
+
 Managing the outliers the process is straightforward. For every column, the first quartile (Q1) and the third quartile (Q3) which represent the 25th and 75th percentiles were computed. Subsequently, the Interquartile Range (IQR) as the difference between Q3 and Q1, for a better understanding of the spread of the middle 50% of the data. The acceptable range is then determined by computing the upper and lower bounds. Which are set to be '±1.5 x IQR'. Any values outside this range are considered outliers and are replaced with NaN to prevent them from skewing the analysis. 
 
 Data Cleaning and Formatting
+
 To prepare the dataset for analysis, several cleaning and formatting steps are performed. First, the 'Size' column was standardized by replacing 'Varies with device' entries with NaN, removing 'M' suffixes for megabytes and converting 'k' suffixes for kilobytes to scientific notation (e-3), ensuring all values were numeric. Rows with missing 'Review Date' entries were dropped to maintain data integrity. Additionally, rows with NaN or non-numeric values in the 'Size' column were also removed to ensure consistency. Numeric columns like 'Installs' were cleaned by removing special characters and converting them to integers, while 'Price' underwent transformations to remove dollar signs and convert to floats. 'Size' and 'Rating' columns were explicitly converted to float types for uniformity. 'Review Date' was converted to datetime format and reformatted to 'dd-mm-yyyy' to standardize its presentation. Finally, missing values in numeric columns were filled with zeros to facilitate accurate analysis. 
 
+
 Scaling Numeric Features and Encoding Categorical Variables
+
 Numeric features such as 'Rating', 'Reviews', 'Size', 'Installs', 'Sentiment_Polarity', and 'Sentiment_Subjectivity' are standardized using StandardScaler() from scikit-learn. Ensuring that features with varying scales contribute equally without dominance due to the higher magnitude, is achieved by standartizing the range of numeric data through scaling. This transformation centers the data around zero and scales it to have unit variance.
 
 Categorical variables including 'Category', 'Type', 'Content Rating', and 'Genres' are transformed into numerical labels using LabelEncoder(). Each unique category within these columns is assigned a unique integer, allowing categorical data to be effectively utilized in machine learning algorithms that require numeric inputs.
@@ -119,6 +125,23 @@ Categorical variables including 'Category', 'Type', 'Content Rating', and 'Genre
 The scaled numeric features and encoded categorical variables are merged along the columns axis. The resulting DataFrame "final_df" integrates both types of transformed data, ensuring that all features are now in a format suitable for machine learning tasks.
 
 Utilizing this combined dataset "final_df", analysis and predictions may now be performed without any need for additional preprocessing.
+
+Splitting the Data for Training and Testing
+
+The final dataset is first splitted into input features (x) and target value (y). The input features (X) encompass all columns in final_df except for 'Rating', which serves as our target variable.
+
+The parameter "test_size=0.2" specifies that 20% of the data will be reserved for testing, while the remaining 80% will be allocated for training the machine learning models. The "random_state=42" parameter ensures reproducibility by fixing the random seed, thereby ensuring consistent results across different executions.
+
+The training set (X_train and y_train) is used to capture the patterns and the relationships within the data. Models learn from pairing the input features (X_train) and known target values (y_train).
+
+The test set (X_test and y_test) serves as an independent dataset used to evaluate the trained models' performance. It simulates real-world scenarios where models encounter new, blind, previously unseen data.
+
+Exploratory Data Analysis (EDA)
+
+For understanding the basic characteristics of the dataset and gain initial insights, basic statistical analysis is performed. 
+
+The "describe()" function generates statistics such as count, mean, standard deviation, minimum, quartiles, and maximum for numerical columns in the dataset. With the information gathered us can understand the data range, evaluate of the quality of the data and detect possible outliers. The underlying pattern, overall distribution, central tendency of the data is overviewed.
+
 
 # The score prediction model and Features
 
