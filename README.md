@@ -166,6 +166,9 @@ min                  0.000000
 max                  0.900000
 ```
 
+# Insights from Dataset
+
+![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/f20c4202-fc48-4331-b91e-1bd9435e4ed7)
 
 
 # The score prediction model and Features
