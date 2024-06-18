@@ -174,6 +174,9 @@ max                  0.900000
 ![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/c3b5f5b0-25fb-4ace-a07d-b4cbed17e740)
 *Figure 1.2: Pair Plot of Numeric Features*
 
+![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/a05682c7-e983-41c1-ae4a-b76e12206d2e)
+
+
 
 # The score prediction model and Features
 
