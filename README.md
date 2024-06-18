@@ -148,7 +148,7 @@ The "describe()" function generates statistics such as count, mean, standard dev
 
 When machine learning models are evaluated, especially when the results obtained from Random Forest , Linear Regression and Gradient Boosting Regressor models are examined, it is clearly seen that factors such as user comments (Reviews) and application type (Genres) affect application scores. It has been determined that especially in the Random Forest Regressor model, the "Reviews" and "Genres" features are decisive and these features are highly effective in score prediction. Therefore, user reviews and app type are among the most effective features for predicting app scores. These features can be optimally used to improve the accuracy of the score prediction model.  
 User reviews are valuable because they provide direct feedback about the quality of the app and user satisfaction. Additionally, the app type also plays an important role in score estimation as it reflects the app's overall category and target audience. App pricing may also be effective in score estimation, but the effect of this factor was seen to be less pronounced compared to others in the models used in this study.  
-While the Linear Regression model performed reasonably well with a mean square error of 0.0226 and an R-squared value of 0.5023 on the test set, the Gradient Boosting Regressor model achieved very low error rates and a high R-squared value of 0.9991, predicting application scores extremely accurately. It was seen that he did. Additionally, it was remarkable that the Random Forest Regressor model achieved accuracy scores of up to 100% in the training and test sets, which tends to overfit the training data, showing that especially the "Reviews" (75.654%) and "Genres" (24.346%) features were decisive in score prediction. These results show that the most effective features for predicting app ratings are user reviews and app type.
+While the Linear Regression model performed reasonably well with a mean square error of 0.0226 and an R-squared value of 0.5023 on the test set, the Gradient Boosting Regressor model achieved very low error rates and a high R-squared value of 0.9991, predicting application scores extremely accurately. It was seen that he did. Additionally, it was remarkable that the Random Forest Regressor model achieved accuracy scores of up to 100% in the training and test sets, which tends to overfit the training data, showing that especially the "Reviews" (75.654%) and "Genres" (24.346%) features were decisive in score prediction. On correlation matrix below, it is clearly seen that there is strongest correlation is the positive correlation between "Genre" and "Reviews". These results show that the most effective features for predicting app ratings are user reviews and app type.
 
 ![Ekran görüntüsü 2024-06-17 154033](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/6c406f68-84d7-46d7-a45d-f9c408b99602)  
 *Figure 1: Actual vs Predicted Ratings (Linear Regression)*
@@ -156,8 +156,11 @@ While the Linear Regression model performed reasonably well with a mean square e
 *Figure 2: Actual vs Predicted Ratings (Gradient Boosting Regressor)*
 ![WhatsApp Görsel 2024-06-18 saat 00 57 48_42400179](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/05fb704d-2e9a-4259-8d32-6097266ef517)
 *Figure 3: Actual vs Predicted Ratings (Random Forest)*
+![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/f2490c71-90d4-433e-81f7-a0c38a2e714f)
+*Figure 4: Correlation Matrix for Features*
 ![Ekran görüntüsü 2024-06-17 154326](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/7b79ca6f-91f5-4068-9d35-e6d51d37cca6)  
 *Figure 4: Feature Importance for App Ratings*
+
 
 
 
