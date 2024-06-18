@@ -142,6 +142,29 @@ For understanding the basic characteristics of the dataset and gain initial insi
 
 The "describe()" function generates statistics such as count, mean, standard deviation, minimum, quartiles, and maximum for numerical columns in the dataset. With the information gathered us can understand the data range, evaluate of the quality of the data and detect possible outliers. The underlying pattern, overall distribution, central tendency of the data is overviewed.
 
+Basic Statistics
+
+```plaintext
+            Rating         Size      Installs   Price  Sentiment_Polarity
+count  6534.000000  6534.000000  6.534000e+03  6534.0         2896.000000
+mean      4.453336    34.826752  1.048096e+08     0.0            0.308423
+std       0.188545    21.970818  2.266175e+08     0.0            0.282917
+min       4.100000     4.400000  5.000000e+05     0.0           -0.250000
+25%       4.400000    15.000000  1.000000e+07     0.0            0.000000
+50%       4.400000    37.000000  5.000000e+07     0.0            0.308333
+75%       4.500000    53.000000  1.000000e+08     0.0            0.500000
+max       4.900000    77.000000  1.000000e+09     0.0            1.000000
+
+       Sentiment_Subjectivity
+count             2896.000000
+mean                 0.415136
+std                  0.279582
+min                  0.000000
+25%                  0.000000
+50%                  0.502976
+75%                  0.600000
+max                  0.900000
+
 
 # The score prediction model and Features
 
