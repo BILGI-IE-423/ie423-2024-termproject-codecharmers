@@ -260,7 +260,7 @@ weighted avg       1.00      1.00      1.00     23754
 When we look below, the class distribution between rating values of apps is given. It appears that the target variable "Rating" has only 10 unique values, and data is distributed quite unevenly. The most common values are 4.7 and 4.4, while the other values are much less frequent. This situation may explain why the models are overfitting and showing perfect performance across all classes. 
 
 ```plaintext
-Distribution 
+Class Distribution 
 4.7    49931
 4.4    44268
 4.1    16806
