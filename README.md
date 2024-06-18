@@ -157,9 +157,9 @@ While the Linear Regression model performed reasonably well with a mean square e
 ![WhatsApp Görsel 2024-06-18 saat 00 57 48_42400179](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/05fb704d-2e9a-4259-8d32-6097266ef517)
 *Figure 3: Actual vs Predicted Ratings (Random Forest)*
 ![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/f2490c71-90d4-433e-81f7-a0c38a2e714f)
-*Figure 4: Correlation Matrix for Features*
+*Figure 5: Correlation Matrix for Features*
 ![Ekran görüntüsü 2024-06-17 154326](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/7b79ca6f-91f5-4068-9d35-e6d51d37cca6)  
-*Figure 4: Feature Importance for App Ratings*
+*Figure 6: Feature Importance for App Ratings*
 
 
 
@@ -174,38 +174,38 @@ The studies presented in the graphs on “SentimentAnalysisGraphs.ipynb” captu
 
 ![Ekran görüntüsü 2024-06-17 124639](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/0b46f365-c378-4ef4-958b-a819b8dd258f)
 
-*Figure 5: Sentiment Distribution Pre-COVID-19*
+*Figure 7: Sentiment Distribution Pre-COVID-19*
 ![Ekran görüntüsü 2024-06-17 124647](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/34a469e9-4f1a-4e2f-9be4-2ef9a2fcfbf6)
 
-*Figure 6: Sentiment Distribution Post-COVID-19*
+*Figure 8: Sentiment Distribution Post-COVID-19*
 
 The emotion distribution bar chart comparing pre-,and post-COVID reveals an obvious decrease in positive emotions and a little decline in negative emotions, with a notable increase in neutral sentiments following the COVID-19 pandemic. This implies that consumers' emotional responses during the epidemic were less judgmental or unsure.
 
 ![Ekran görüntüsü 2024-06-17 124615](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/a7438008-0c94-4303-b2d1-d1f638f19cd4)  
-*Figure 7: Sentiment Distribution Pre- and Post-COVID-19*
+*Figure 9: Sentiment Distribution Pre- and Post-COVID-19*
 
 The line graph shows the evolution of sentiment trends over time; it shows an obvious decrease in positive emotions prior to COVID-19 and an increase in neutral feelings in response, while negative sentiments stay mostly unchanged. This pattern shows a change in user responses, which may have been impacted by the pandemic's stress and uncertainty on a worldwide scale.
 
 ![Ekran görüntüsü 2024-06-17 124703](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/d57afbe2-74bc-4a23-9da3-e15b7a9c401a)  
-*Figure 8: Sentiment Trends in Pre- and Post-COVID-19*
+*Figure 10: Sentiment Trends in Pre- and Post-COVID-19*
 
 **Pre-COVID Genre Usage**: The bar chart shows high usage of Education and Photography apps before the pandemic, with other genres having significantly lower usage rates.  
 **During COVID Genre Usage**: There's a noticeable shift in genre usage during the pandemic, with Education and Photography remaining dominant, but there's a slight decrease in their proportion, indicating a diversification in app usage.
 
 ![Ekran görüntüsü 2024-06-17 132444](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/99834023-aa77-4f5d-8633-5adea258bc9e)  
-*Figure 9: Pre-COVID Genre Usage*
+*Figure 11: Pre-COVID Genre Usage*
 ![Ekran görüntüsü 2024-06-17 124727](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/461a2d21-c1b9-4359-af50-c386203f9849)  
-*Figure 10: During COVID Genre Usage*
+*Figure 12: During COVID Genre Usage*
 
 The comparison bar chart illustrates how consumption trends for different app genres changed. For instance, during the pandemic, there was a noticeable rise in the use of Tools and Art-Design apps, indicating changes in user requirements and activities. In contrast, Education and Photography apps continued to have significant utilization
 
 ![Ekran görüntüsü 2024-06-17 124739](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/2e554eb2-1dd1-4698-9950-949943f1c1ff)  
-*Figure 11: Genre Usage Comparision*
+*Figure 13: Genre Usage Comparision*
 
 Before and during the epidemic, the stacked bar chart offers a thorough analysis of the sentiment distribution across several app categories. Although there is an obvious increase in neutral opinions across all categories throughout the pandemic, areas with significant positive sentiments include Tools, Health & Fitness, and Education. This shows the need to apps that are in Tools, Health & Fitness, and Education genres increased during pandemic. Also, these apps made lives easier and changed the dynamics of education, workout, and business life on daily basis. 
 
 ![Ekran görüntüsü 2024-06-17 124801](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/2fc3fbaf-74d4-498d-9994-294be79a2ccf)  
-*Figure 12: Sentiment Distribution by Category*  
+*Figure 14: Sentiment Distribution by Category*  
 
 # Future Works
 
