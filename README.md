@@ -380,7 +380,7 @@ The visuals presented on “SomeAdditionalAnalaysis.ipynb” capture the pattern
 ![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/f9e1086e-3596-4c69-839c-addb5f40fa03)
 *Figure 3.2: Ratings vs Installs*
 
-- The pie chart displays the distribution of reviews based on sentiment (Sentiment). It shows the percentage of reviews categorized as positive, negative, or neutral, providing insights into user sentiment towards the apps.
+- The pie chart displays the distribution of reviews based on sentiment (Sentiment). It shows the percentage of reviews categorized as positive, negative, or neutral, providing insights into user sentiment towards the apps. It looks like, users tend to comment on positive aspects of apps.
 ![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/5b63a2b0-3130-461f-a5a9-512a32257c23)
 *Figure 3.3: Percentage of Reviews by Sentiment*
 
