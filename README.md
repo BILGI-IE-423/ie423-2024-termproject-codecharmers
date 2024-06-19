@@ -385,7 +385,6 @@ The visuals presented on “SomeAdditionalAnalaysis.ipynb” capture the pattern
 ![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/5b63a2b0-3130-461f-a5a9-512a32257c23)
 *Figure 3.3: Percentage of Reviews by Sentiment*
 
-
 - The pie chart below shows that out of all the users who installed the apps in the dataset, about 4.73% of them also left a review. This metric provides insight into user engagement and can be used to gauge how actively users provide feedback after installing an app.
 ![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/6db23312-062d-4745-9b68-4c05d9b39004)
 *Figure 3.4: Percentage of Users Who Left Reviews*
