@@ -229,6 +229,7 @@ From the scatter plot, it's evident that there is no strong, consistent pattern,
 **K-Means Clustering**
 
 K-Means clustering was employed to identify distinct groups of apps based on their size and rating. This method was chosen for its efficiency and simplicity in partitioning the data into a predefined number of clusters. By varying the number of clusters (3, 4, and 5), the aim was to understand how different segmentation strategies affect the clustering of apps. K-Means clustering helps uncover patterns and similarities among apps, providing insights into how app size and rating interact and allowing the identification of groups of apps with similar characteristics.
+
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/1386ac05-b2c4-47b9-8a8f-13efb160c8be)
 
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/3b95169b-e57b-4383-aceb-2497fd70b668)
@@ -313,20 +314,25 @@ Silhouette Score for Test Set: 0.6117722860087376
 
 
 - When machine learning models are evaluated, especially when the results obtained from Random Forest , Linear Regression and Gradient Boosting Regressor models are examined, it is clearly seen that factors such as user comments (Reviews) and application type (Genres) affect application scores. It has been determined that especially in the Random Forest Regressor model, the "Reviews" and "Genres" features are decisive and these features are highly effective in score prediction. Therefore, user reviews and app type are among the most effective features for predicting app scores. These features can be optimally used to improve the accuracy of the score prediction model.
+  
 ![Ekran görüntüsü 2024-06-17 154326](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/7b79ca6f-91f5-4068-9d35-e6d51d37cca6)  
 *Figure 2.1: Feature Importance for App Ratings*
 
 - On correlation matrix below, it is clearly seen that there is strongest correlation is the positive correlation between "Genre" and "Reviews". These results show that the most effective features for predicting app ratings are user reviews and app type.
+  
 ![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/f2490c71-90d4-433e-81f7-a0c38a2e714f)
 *Figure 2.2: Correlation Matrix for Features*
 
 - User reviews are valuable because they provide direct feedback about the quality of the app and user satisfaction. Additionally, the app type also plays an important role in score estimation as it reflects the app's overall category and target audience. App pricing may also be effective in score estimation, but the effect of this factor was seen to be less pronounced compared to others in the models used in this study.
 
 - While the Linear Regression model performed reasonably well with a mean square error of 0.0226 and an R-squared value of 0.5023 on the test set, the Gradient Boosting Regressor model achieved very low error rates and a high R-squared value of 0.9991, predicting application scores extremely accurately. It was seen that he did. Additionally, it was remarkable that the Random Forest Regressor model achieved accuracy scores of up to 100% in the training and test sets, which tends to overfit the training data, showing that especially the "Reviews" (75.654%) and "Genres" (24.346%) features were decisive in score prediction.
+  
 ![Ekran görüntüsü 2024-06-17 154033](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/6c406f68-84d7-46d7-a45d-f9c408b99602)  
 *Figure 2.3: Actual vs Predicted Ratings (Linear Regression)*
+
 ![Ekran görüntüsü 2024-06-17 154119](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/8210408c-89d4-4f34-bfcd-e8c33c6d7d5b)  
 *Figure 2.4: Actual vs Predicted Ratings (Gradient Boosting Regressor)*
+
 ![WhatsApp Görsel 2024-06-18 saat 00 57 48_42400179](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/05fb704d-2e9a-4259-8d32-6097266ef517)
 *Figure 2.5: Actual vs Predicted Ratings (Random Forest)*
 
@@ -422,10 +428,9 @@ The studies presented in the graphs on “SentimentAnalysisGraphs.ipynb” captu
 - **Post-COVID Sentiment Distribution**: The second pie chart shows a slight decrease in positive sentiments to 61%, a small decrease in negative sentiments to 24.4%, and an increase in neutral sentiments to 14.6%.
 
 ![Ekran görüntüsü 2024-06-17 124639](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/0b46f365-c378-4ef4-958b-a819b8dd258f)
-
 *Figure 2.6: Sentiment Distribution Pre-COVID-19*
-![Ekran görüntüsü 2024-06-17 124647](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/34a469e9-4f1a-4e2f-9be4-2ef9a2fcfbf6)
 
+![Ekran görüntüsü 2024-06-17 124647](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/34a469e9-4f1a-4e2f-9be4-2ef9a2fcfbf6)
 *Figure 2.7: Sentiment Distribution Post-COVID-19*
 
 - The emotion distribution bar chart comparing pre-,and post-COVID reveals an obvious decrease in positive emotions and a little decline in negative emotions, with a notable increase in neutral sentiments following the COVID-19 pandemic. This implies that consumers' emotional responses during the epidemic were less judgmental or unsure.
@@ -443,6 +448,7 @@ The studies presented in the graphs on “SentimentAnalysisGraphs.ipynb” captu
 
 ![Ekran görüntüsü 2024-06-17 132444](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/99834023-aa77-4f5d-8633-5adea258bc9e)  
 *Figure 2.10: Pre-COVID Genre Usage*
+
 ![Ekran görüntüsü 2024-06-17 124727](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/461a2d21-c1b9-4359-af50-c386203f9849)  
 *Figure 2.11: During COVID Genre Usage*
 
@@ -471,14 +477,17 @@ The visuals presented on “SomeAdditionalAnalaysis.ipynb” capture the pattern
 
 
 - The second scatter plot (Rating vs Installs) examines how app ratings are distributed based on the number of installs. This plot helps us understand if highly installed apps tend to have higher ratings or if there's no clear relationship.
+  
 ![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/f9e1086e-3596-4c69-839c-addb5f40fa03)
 *Figure 3.2: Ratings vs Installs*
 
 - The pie chart displays the distribution of reviews based on sentiment (Sentiment). It shows the percentage of reviews categorized as positive, negative, or neutral, providing insights into user sentiment towards the apps. It looks like, users tend to comment on positive aspects of apps.
+  
 ![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/5b63a2b0-3130-461f-a5a9-512a32257c23)
 *Figure 3.3: Percentage of Reviews by Sentiment*
 
 - The pie chart below shows that out of all the users who installed the apps in the dataset, about 4.73% of them also left a review. This metric provides insight into user engagement and can be used to gauge how actively users provide feedback after installing an app.
+  
 ![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/6db23312-062d-4745-9b68-4c05d9b39004)
 *Figure 3.4: Percentage of Users Who Left Reviews*
 
@@ -530,31 +539,31 @@ gantt
     section Data Preprocessing
     Handling Missing and Outlier Values         :done,     dp1, 2024-04-01, 2024-04-15
     Data Transformation and Normalization       :done,     dp2, 2024-04-01, 2024-04-15
-    Feature Engineering and Encoding Techniques :active,   dp3, 2024-04-01, 2024-04-15
+    Feature Engineering and Encoding Techniques :done,   dp3, 2024-04-01, 2024-04-15
 
     section Exploratory Data Analysis (EDA)
-    Sentiment Analysis from Reviews             :         eda1, 2024-04-16, 2024-05-01
-    Impact Assessment of the COVID-19 period    :         eda2, 2024-04-16, 2024-05-01
+    Sentiment Analysis from Reviews             :done,         eda1, 2024-04-16, 2024-05-01
+    Impact Assessment of the COVID-19 period    :done,         eda2, 2024-04-16, 2024-05-01
 
     section Model Building (Splitting Train and Test Sets)
-    Selection of Algorithms and Splitting      :         mb1, 2024-05-02, 2024-05-15
-    Model Training and Evaluation              :         mb2, 2024-05-02, 2024-05-15
-    Hyperparameter Tuning and Adjustment       :         mb3, 2024-05-02, 2024-05-15
+    Selection of Algorithms and Splitting      :done,         mb1, 2024-05-02, 2024-05-15
+    Model Training and Evaluation              :done,         mb2, 2024-05-02, 2024-05-15
+    Hyperparameter Tuning and Adjustment       :done,         mb3, 2024-05-02, 2024-05-15
 
     section Model Evaluation
-    Selection and Application of Metrics       :         me1, 2024-05-16, 2024-05-30
-    Assessment of Confusion Matrix, ROC Curve  :         me2, 2024-05-16, 2024-05-30
-    Evaluation of Model Generalization         :         me3, 2024-05-16, 2024-05-30
+    Selection and Application of Metrics       :done,         me1, 2024-05-16, 2024-05-30
+    Assessment of Confusion Matrix, ROC Curve  :done,         me2, 2024-05-16, 2024-05-30
+    Evaluation of Model Generalization         :done,         me3, 2024-05-16, 2024-05-30
 
     section Model Optimization
-    Methods for Hyperparameter Optimization    :         mo1, 2024-06-01, 2024-06-15
-    Techniques for Feature Selection           :         mo2, 2024-06-01, 2024-06-15
-    Ensemble Methods and Stacking              :         mo3, 2024-06-01, 2024-06-15
+    Methods for Hyperparameter Optimization    :done,         mo1, 2024-06-01, 2024-06-15
+    Techniques for Feature Selection           :done,         mo2, 2024-06-01, 2024-06-15
+    Ensemble Methods and Stacking              :done,         mo3, 2024-06-01, 2024-06-15
 
     section Model Deployment
-    Transitioning the Model into Production   :         md1, 2024-06-16, 2024-06-19
-    Accessibility Through APIs and Services   :         md2, 2024-06-16, 2024-06-19
-    Performance and Scalability Optimization :         md3, 2024-06-16, 2024-06-19
+    Transitioning the Model into Production   :done,         md1, 2024-06-16, 2024-06-19
+    Accessibility Through APIs and Services   :done,         md2, 2024-06-16, 2024-06-19
+    Performance and Scalability Optimization :done         md3, 2024-06-16, 2024-06-19
 
    ```
 
