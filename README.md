@@ -224,6 +224,29 @@ The scatter plot with a regression line and the correlation matrix provide valua
 
 From the scatter plot, it's evident that there is no strong, consistent pattern, but the general trend supports the negative correlation. The regression line further emphasizes this trend, indicating that larger apps might face challenges that impact user ratings, such as performance issues, longer download times, or higher storage requirements.
 
+# Clustering Analysis
+
+**K-Means Clustering**
+
+K-Means clustering was employed to identify distinct groups of apps based on their size and rating. This method was chosen for its efficiency and simplicity in partitioning the data into a predefined number of clusters. By varying the number of clusters (3, 4, and 5), the aim was to understand how different segmentation strategies affect the clustering of apps. K-Means clustering helps uncover patterns and similarities among apps, providing insights into how app size and rating interact and allowing the identification of groups of apps with similar characteristics.
+![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/1386ac05-b2c4-47b9-8a8f-13efb160c8be)
+
+![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/3b95169b-e57b-4383-aceb-2497fd70b668)
+
+![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/3bf70011-f440-4e54-a780-4f3a679f351b)
+
+The visualizations of the clustering results with 3, 4, and 5 clusters showed distinct groupings of apps based on their size and rating. These clusters revealed that apps with similar sizes and ratings tend to be grouped together, offering valuable insights into the relationship between these two variables.
+
+**Including More Features in Clustering**
+
+To enhance the clustering analysis, additional features such as 'Reviews', 'Installs', and 'Price' were included along with 'Size' and 'Rating'. These features were selected to provide a more comprehensive view of app characteristics that influence user satisfaction and engagement. By standardizing these features using the StandardScaler, it was ensured that each feature contributes equally to the clustering process, preventing any single feature from dominating due to its scale.
+
+After standardizing the features, K-Means clustering with three clusters was applied to the dataset. To visualize the results of this multi-dimensional clustering, Principal Component Analysis (PCA) was used to reduce the dimensions of the data to two principal components. PCA helps in simplifying the complexity of high-dimensional data while retaining its variance, making it easier to visualize and interpret.
+
+The scatter plot shows the clustering results, with each point representing an app and colored according to its assigned cluster. The axes represent the first two principal components derived from PCA, which capture the most significant variance in the data.
+
+![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/b70101f2-3548-4363-892a-6619c2266d3e)
+
 
 # The score prediction model and Features
 
