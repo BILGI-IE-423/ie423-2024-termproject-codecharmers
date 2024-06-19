@@ -126,7 +126,7 @@ The scaled numeric features and encoded categorical variables are merged along t
 
 Utilizing this combined dataset "final_df", analysis and predictions may now be performed without any need for additional preprocessing.
 
-Splitting the Data for Training and Testing
+**Splitting the Data for Training and Testing**
 
 The final dataset is first splitted into input features (x) and target value (y). The input features (X) encompass all columns in final_df except for 'Rating', which serves as our target variable.
 
@@ -174,7 +174,10 @@ max                  0.900000
 *Figure 1.2: Pair Plot of Numeric Features*
 
 ![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/a05682c7-e983-41c1-ae4a-b76e12206d2e)
+*Figure 1.3: Mean Rating by Category*
 
+![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/a0dab2e3-1e56-4244-80c6-3d8cbe7435d9)
+*Figure 1.4: Distribution of Ratings*
 
 
 # The score prediction model and Features
