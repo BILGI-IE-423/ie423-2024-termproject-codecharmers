@@ -142,7 +142,7 @@ For understanding the basic characteristics of the dataset and gain initial insi
 
 The "describe()" function generates statistics such as count, mean, standard deviation, minimum, quartiles, and maximum for numerical columns in the dataset. With the information gathered us can understand the data range, evaluate of the quality of the data and detect possible outliers. The underlying pattern, overall distribution, central tendency of the data is overviewed.
 
-Basic Statistics
+**Basic Statistics**
 
 ```plaintext
             Rating         Size      Installs   Price  Sentiment_Polarity
@@ -167,29 +167,30 @@ max                  0.900000
 ```
 Based on the descriptive statistics provided for various app features, we can derive several meaningful insights:
 
-Rating Distribution:
+**Rating Distribution:**
 
 High Satisfaction: The mean rating of 4.45 and the relatively tight standard deviation of 0.19 suggest that users are generally very satisfied with the apps. The ratings are closely clustered around the mean, indicating consistent user experience across different apps.
 
-App Size:
+**App Size:**
 
 Wide Range: App sizes vary significantly, with a range from 4.4 MB to 77 MB. The standard deviation of 21.97 MB indicates considerable variance in app sizes. The high variance points to a diverse set of apps, from lightweight to very large ones.
 
-Install Counts:
+**Install Counts:**
 
 Right-Skewed Distribution: The mean number of installs is approximately 104.81 million, which is significantly higher than the median of 50 million. This indicates a right-skewed distribution, where a small number of extremely popular apps have very high install counts, inflating the average.
 High Variance: With a standard deviation of 226.62 million installs, the data shows high variance, reflecting the disparity between widely popular apps and those with fewer installs.
 
-Sentiment Polarity:
+**Sentiment Polarity:**
 
 Balanced Sentiments: The mean sentiment polarity of 0.31 and the median at the same value indicate a balanced distribution of positive and negative sentiments. However, the standard deviation of 0.28 shows there is some variability in user sentiments.
 Diverse Opinions: The range from -0.25 to 1.0 suggests that user opinions are diverse, with some apps receiving highly positive feedback and others receiving more mixed or even negative feedback.
 
-Sentiment Subjectivity:
+**Sentiment Subjectivity:**
 
 Moderate Subjectivity: The mean sentiment subjectivity of 0.42 and a median of 0.50 imply that reviews tend to be moderately subjective. This indicates that while many reviews are based on personal opinion, there is also a substantial amount of objective feedback.
 
 ![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/f20c4202-fc48-4331-b91e-1bd9435e4ed7)
+
 *Figure 1.1: Correlation Between Numerical Features*
 
 Based on the correlation matrix provided, we can make the following observations:
@@ -209,15 +210,19 @@ Negative Correlation Between Rating and App Size: Since the project's aim is to 
 The category-based analysis reveals that most app categories have remarkably high and consistent mean ratings, generally around 4 or above, indicating widespread user satisfaction across various types of apps. This trend suggests that regardless of the app category, users tend to rate their experiences favorably. Notably, the "GAME" category stands out with the highest mean rating, highlighting the particularly positive reception of gaming apps. This could be attributed to the engaging and entertaining nature of these apps. 
 
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/a0dab2e3-1e56-4244-80c6-3d8cbe7435d9)
+
 *Figure 1.4: Distribution of Ratings*
 
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/a1cea90a-618d-47e8-8008-4df2a72f8cb0)
+
 *Figure 1.5: Distribution of App Sizes*
 
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/cddfc667-2f25-405e-950b-b2bbd1f150fd)
-*Figure 1.6: Rating vs App Size*
+
+Figure 1.6: Rating vs App Size*
 
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/a7cdbdc7-5ecc-41a5-b7b7-ed54faa4529b)
+
 *Figure 1.7: Regression Line of Rating and App Size*
 
 The scatter plot with a regression line and the correlation matrix provide valuable insights into the relationship between app size and rating. The scatter plot, enhanced with a regression line, indicates a slight negative trend, where larger app sizes tend to have slightly lower ratings. This observation is quantified in the correlation matrix, which shows a negative correlation coefficient of -0.34 between app size and rating. This suggests a moderate inverse relationship, meaning as the size of the app increases, the rating tends to decrease.
@@ -231,12 +236,15 @@ From the scatter plot, it's evident that there is no strong, consistent pattern,
 K-Means clustering was employed to identify distinct groups of apps based on their size and rating. This method was chosen for its efficiency and simplicity in partitioning the data into a predefined number of clusters. By varying the number of clusters (3, 4, and 5), the aim was to understand how different segmentation strategies affect the clustering of apps. K-Means clustering helps uncover patterns and similarities among apps, providing insights into how app size and rating interact and allowing the identification of groups of apps with similar characteristics.
 
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/1386ac05-b2c4-47b9-8a8f-13efb160c8be)
+
 *Figure 1.1.1: K-Means Clustering of App Size with 3 Clusters*
 
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/3b95169b-e57b-4383-aceb-2497fd70b668)
+
 *Figure 1.1.2: K-Means Clustering of App Size with 4 Clusters*
 
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/3bf70011-f440-4e54-a780-4f3a679f351b)
+
 *Figure 1.1.3: K-Means Clustering of App Size with 5 Clusters*
 
 The visualizations of the clustering results with 3, 4, and 5 clusters showed distinct groupings of apps based on their size and rating. These clusters revealed that apps with similar sizes and ratings tend to be grouped together, offering valuable insights into the relationship between these two variables.
@@ -250,6 +258,7 @@ After standardizing the features, K-Means clustering with three clusters was app
 The scatter plot shows the clustering results, with each point representing an app and colored according to its assigned cluster. The axes represent the first two principal components derived from PCA, which capture the most significant variance in the data.
 
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/b70101f2-3548-4363-892a-6619c2266d3e)
+
 *Figure 1.1.4: K-Means Clustering with More Features*
 
 **Automated Clustering**
@@ -285,6 +294,7 @@ Step 6: Clustering
 The optimal number of clusters was determined using the elbow method, which involves plotting the inertia (sum of squared distances of samples to their closest cluster center) against the number of clusters. This method helps in identifying the point where adding more clusters no longer significantly reduces the inertia, indicating the optimal number of clusters. K-Means clustering was then performed with the chosen number of clusters, and the results were added as cluster labels to the dataset.
 
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/393366bf-6c0d-40ec-9f3f-d030fd02d67f)
+
 *Figure 1.1.5: Elbow Method*
 ```plaintext
 Cluster
@@ -298,6 +308,7 @@ Step 7: Visualize Clusters
 Principal Component Analysis (PCA) was used to reduce the dimensionality of the data for visualization purposes. PCA simplifies the complexity of high-dimensional data while retaining its variance. The clusters were visualized in a 2D plot using the first two principal components, making it easier to interpret and understand the clustering results.
 
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/d1a51c9c-96a5-4f0f-a435-cba54b3a126e)
+
 *Figure 1.1.6: Train Set Clusters*
 
 
@@ -306,6 +317,7 @@ Step 8: Predict Clusters for Test Set
 The trained K-Means model was used to predict cluster labels for the test set. This step ensured that the model's performance could be evaluated on unseen data, providing insights into its generalizability and effectiveness.
 
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/cea8a928-e2ff-43a6-833b-b61b1e0b1576)
+
 *Figure 1.1.7: Test Set Clusters*
 
 ```plaintext
@@ -430,9 +442,6 @@ Name: Rating, dtype: int64
 
 
 
-
-
-
 # Emotional Studies: Before and After the Pandemic
 
 The studies presented in the graphs on “SentimentAnalysisGraphs.ipynb” capture the changes in users' emotional reactions before and after the COVID-19 pandemic in several significant ways.By reading the datasets, column names were standardized and datasets were merged. Sentiment analysis was performed on the “content” column using TextBlob from the merged dataset. This analysis resulted in the calculation of sensitivity, polarity, and subjectivity values ​​for each review. The data was divided into pre-COVID-19 and post-COVID-19 periods and saved in separate CSV files. Both CSV files included sentiment analysis results based on the "content" column. This process aimed to analyze sentiment in app reviews and their changes over time. Here's everything in detail:
@@ -441,9 +450,11 @@ The studies presented in the graphs on “SentimentAnalysisGraphs.ipynb” captu
 - **Post-COVID Sentiment Distribution**: The second pie chart shows a slight decrease in positive sentiments to 61%, a small decrease in negative sentiments to 24.4%, and an increase in neutral sentiments to 14.6%.
 
 ![Ekran görüntüsü 2024-06-17 124639](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/0b46f365-c378-4ef4-958b-a819b8dd258f)
+
 *Figure 2.6: Sentiment Distribution Pre-COVID-19*
 
 ![Ekran görüntüsü 2024-06-17 124647](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/34a469e9-4f1a-4e2f-9be4-2ef9a2fcfbf6)
+
 *Figure 2.7: Sentiment Distribution Post-COVID-19*
 
 - The emotion distribution bar chart comparing pre-,and post-COVID reveals an obvious decrease in positive emotions and a little decline in negative emotions, with a notable increase in neutral sentiments following the COVID-19 pandemic. This implies that consumers' emotional responses during the epidemic were less judgmental or unsure.
@@ -487,19 +498,23 @@ The visuals presented on “SomeAdditionalAnalaysis.ipynb” capture the pattern
     1000000  500000000]
 ```
 ![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/e04a8d43-f5b5-4dc5-ac14-7c48d782e617)
+
 *Figure 3.1: Installs vs Reviews*
 
 
 - The second scatter plot (Rating vs Installs) examines how app ratings are distributed based on the number of installs. This plot helps us understand if highly installed apps tend to have higher ratings or if there's no clear relationship. Same thing with the previous graphic happens on "Ratings vs Installs". Because that Install values are not distributed continously, again there is no high distribution on graphic. We can observe from graphic that apps that have received ratings of 4.6 or above are often less installed. This implies that the most downloaded apps aren't always the ones with the highest ratings.
 ![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/f9e1086e-3596-4c69-839c-addb5f40fa03)
+
 *Figure 3.2: Ratings vs Installs*
 
 - The pie chart displays the distribution of reviews based on sentiment (Sentiment). It shows the percentage of reviews categorized as positive, negative, or neutral, providing insights into user sentiment towards the apps. It looks like, users tend to comment on positive aspects of apps. Positive emotion dominates overall, which is encouraging for those mentioned apps. On the other hand, a significant amount of negative feedback indicates that developers should solve certain problems or flaws.
 ![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/5b63a2b0-3130-461f-a5a9-512a32257c23)
+
 *Figure 3.3: Percentage of Reviews by Sentiment*
 
 - The pie chart below shows that out of all the users who installed the apps in the dataset, about 4.73% of them also left a review. This metric provides insight into user engagement and can be used to gauge how actively users provide feedback after installing an app.
 ![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/6db23312-062d-4745-9b68-4c05d9b39004)
+
 *Figure 3.4: Percentage of Users Who Left Reviews*
 
 - The analysis of the box plot reveals that apps rated for "Teen" audiences show the most consistency, with tightly clustered ratings around the median. This suggests that apps targeted at teenagers tend to meet user expectations more uniformly compared to those in the "Everyone" category. In contrast, the "Everyone" category exhibits greater variability in ratings, likely due to the broad and diverse user base, which results in a wider range of feedback and ratings. This variability highlights the challenge of satisfying a more general audience compared to a more specific demographic. Despite these differences in variability, the median ratings across all content ratings are relatively similar, hovering around 4.4. This indicates a general trend of high user satisfaction across different content ratings, though the degree of variability differs.
