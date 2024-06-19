@@ -346,7 +346,7 @@ Silhouette Score for Test Set: 0.6117722860087376
 ![Ekran görüntüsü 2024-06-17 154119](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/8210408c-89d4-4f34-bfcd-e8c33c6d7d5b)  
 *Figure 2.4: Actual vs Predicted Ratings (Gradient Boosting Regressor)*
 
-![WhatsApp Görsel 2024-06-18 saat 00 57 48_42400179](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/05fb704d-2e9a-4259-8d32-6097266ef517)
+![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/cf4936dd-ed8b-4894-95be-2473f83199f4)
 *Figure 2.5: Actual vs Predicted Ratings (Random Forest)*
 
 - When different SVM Models are implemented, such output is observed;  
