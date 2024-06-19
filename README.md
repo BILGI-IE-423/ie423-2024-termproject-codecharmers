@@ -266,23 +266,21 @@ The dataset was split into training and test sets to evaluate the performance of
 
 Step 5: Standardize the Features
 Standardizing the features was performed to ensure that each feature contributes equally to the clustering process. Without standardization, features with larger ranges could dominate the clustering process. Standardization transforms the data to have a mean of zero and a standard deviation of one, creating a level playing field for all features.
-
+```plaintext
 Train set size: 4573
-
 Test set size: 1961
+```plaintext
 
 Step 6: Clustering
 The optimal number of clusters was determined using the elbow method, which involves plotting the inertia (sum of squared distances of samples to their closest cluster center) against the number of clusters. This method helps in identifying the point where adding more clusters no longer significantly reduces the inertia, indicating the optimal number of clusters. K-Means clustering was then performed with the chosen number of clusters, and the results were added as cluster labels to the dataset.
 
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/393366bf-6c0d-40ec-9f3f-d030fd02d67f)
-
+```plaintext
 Cluster
-
 0    2391
-
 2    1923
-
 1     259
+```plaintext
 
 Step 7: Visualize Clusters
 Principal Component Analysis (PCA) was used to reduce the dimensionality of the data for visualization purposes. PCA simplifies the complexity of high-dimensional data while retaining its variance. The clusters were visualized in a 2D plot using the first two principal components, making it easier to interpret and understand the clustering results.
@@ -294,21 +292,19 @@ Step 8: Predict Clusters for Test Set
 The trained K-Means model was used to predict cluster labels for the test set. This step ensured that the model's performance could be evaluated on unseen data, providing insights into its generalizability and effectiveness.
 
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/cea8a928-e2ff-43a6-833b-b61b1e0b1576)
-
+```plaintext
 Cluster
-
 0    1044
-
 2     801
-
 1     116
+```plaintext
 
 Step 9: Evaluate Clustering Performance
 The silhouette score was calculated for both the training and test sets to evaluate the quality of the clusters. The silhouette score measures how similar an object is to its own cluster compared to other clusters. A higher silhouette score indicates better-defined and more cohesive clusters. This metric was used to validate the clustering results and ensure that the model effectively captured the underlying structure of the data.
-
+```plaintext
 Silhouette Score for Train Set: 0.6197158136999724
-
 Silhouette Score for Test Set: 0.6117722860087376
+```plaintext
 
 # The score prediction model and Features
 
