@@ -220,6 +220,9 @@ The category-based analysis reveals that most app categories have remarkably hig
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/a7cdbdc7-5ecc-41a5-b7b7-ed54faa4529b)
 *Figure 1.7: Regression Line of Rating and App Size*
 
+The scatter plot with a regression line and the correlation matrix provide valuable insights into the relationship between app size and rating. The scatter plot, enhanced with a regression line, indicates a slight negative trend, where larger app sizes tend to have slightly lower ratings. This observation is quantified in the correlation matrix, which shows a negative correlation coefficient of -0.34 between app size and rating. This suggests a moderate inverse relationship, meaning as the size of the app increases, the rating tends to decrease.
+
+From the scatter plot, it's evident that there is no strong, consistent pattern, but the general trend supports the negative correlation. The regression line further emphasizes this trend, indicating that larger apps might face challenges that impact user ratings, such as performance issues, longer download times, or higher storage requirements.
 
 
 # The score prediction model and Features
