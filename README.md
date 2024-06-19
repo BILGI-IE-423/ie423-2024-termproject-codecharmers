@@ -237,15 +237,15 @@ K-Means clustering was employed to identify distinct groups of apps based on the
 
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/1386ac05-b2c4-47b9-8a8f-13efb160c8be)
 
-*Figure 1.1.1: K-Means Clustering of App Size with 3 Clusters*
+*Figure 1.8: K-Means Clustering of App Size with 3 Clusters*
 
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/3b95169b-e57b-4383-aceb-2497fd70b668)
 
-*Figure 1.1.2: K-Means Clustering of App Size with 4 Clusters*
+*Figure 1.9: K-Means Clustering of App Size with 4 Clusters*
 
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/3bf70011-f440-4e54-a780-4f3a679f351b)
 
-*Figure 1.1.3: K-Means Clustering of App Size with 5 Clusters*
+*Figure 1.10 K-Means Clustering of App Size with 5 Clusters*
 
 The visualizations of the clustering results with 3, 4, and 5 clusters showed distinct groupings of apps based on their size and rating. These clusters revealed that apps with similar sizes and ratings tend to be grouped together, offering valuable insights into the relationship between these two variables.
 
@@ -259,7 +259,7 @@ The scatter plot shows the clustering results, with each point representing an a
 
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/b70101f2-3548-4363-892a-6619c2266d3e)
 
-*Figure 1.1.4: K-Means Clustering with More Features*
+*Figure 1.11: K-Means Clustering with More Features*
 
 **Automated Clustering**
 
@@ -295,7 +295,7 @@ The optimal number of clusters was determined using the elbow method, which invo
 
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/393366bf-6c0d-40ec-9f3f-d030fd02d67f)
 
-*Figure 1.1.5: Elbow Method*
+*Figure 1.12: Elbow Method*
 ```plaintext
 Cluster
 0    2391
@@ -309,7 +309,7 @@ Principal Component Analysis (PCA) was used to reduce the dimensionality of the 
 
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/d1a51c9c-96a5-4f0f-a435-cba54b3a126e)
 
-*Figure 1.1.6: Train Set Clusters*
+*Figure 1.13: Train Set Clusters*
 
 
 Step 8: Predict Clusters for Test Set
@@ -318,7 +318,7 @@ The trained K-Means model was used to predict cluster labels for the test set. T
 
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/cea8a928-e2ff-43a6-833b-b61b1e0b1576)
 
-*Figure 1.1.7: Test Set Clusters*
+*Figure 1.14: Test Set Clusters*
 
 ```plaintext
 Cluster
