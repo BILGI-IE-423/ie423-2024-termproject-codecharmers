@@ -485,6 +485,9 @@ The visuals presented on “SomeAdditionalAnalaysis.ipynb” capture the pattern
 ![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/6db23312-062d-4745-9b68-4c05d9b39004)
 *Figure 3.4: Percentage of Users Who Left Reviews*
 
+-The analysis of the box plot reveals that apps rated for "Teen" audiences show the most consistency, with tightly clustered ratings around the median. This suggests that apps targeted at teenagers tend to meet user expectations more uniformly compared to those in the "Everyone" category. In contrast, the "Everyone" category exhibits greater variability in ratings, likely due to the broad and diverse user base, which results in a wider range of feedback and ratings. This variability highlights the challenge of satisfying a more general audience compared to a more specific demographic. Despite these differences in variability, the median ratings across all content ratings are relatively similar, hovering around 4.4. This indicates a general trend of high user satisfaction across different content ratings, though the degree of variability differs.
+![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/e5f29eeb-c2e4-4b55-ad3b-2df773b68f27)
+*Figure 3.5: Ratings by Content Rating*
 
 
 # Future Works
