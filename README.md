@@ -179,6 +179,16 @@ max                  0.900000
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/a0dab2e3-1e56-4244-80c6-3d8cbe7435d9)
 *Figure 1.4: Distribution of Ratings*
 
+![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/a1cea90a-618d-47e8-8008-4df2a72f8cb0)
+*Figure 1.5: Distribution of App Sizes*
+
+![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/cddfc667-2f25-405e-950b-b2bbd1f150fd)
+*Figure 1.6: Rating vs App Size*
+
+![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/a7cdbdc7-5ecc-41a5-b7b7-ed54faa4529b)
+*Figure 1.7: Regression Line of Rating and App Size*
+
+
 
 # The score prediction model and Features
 
