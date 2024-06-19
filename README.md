@@ -476,18 +476,15 @@ The visuals presented on “SomeAdditionalAnalaysis.ipynb” capture the pattern
 *Figure 3.1: Installs vs Reviews*
 
 
-- The second scatter plot (Rating vs Installs) examines how app ratings are distributed based on the number of installs. This plot helps us understand if highly installed apps tend to have higher ratings or if there's no clear relationship.
-  
+- The second scatter plot (Rating vs Installs) examines how app ratings are distributed based on the number of installs. This plot helps us understand if highly installed apps tend to have higher ratings or if there's no clear relationship. Same thing with the previous graphic happens on "Ratings vs Installs". Because that Install values are not distributed continously, again there is no high distribution on graphic. We can observe from graphic that apps that have received ratings of 4.6 or above are often less installed. This implies that the most downloaded apps aren't always the ones with the highest ratings.
 ![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/f9e1086e-3596-4c69-839c-addb5f40fa03)
 *Figure 3.2: Ratings vs Installs*
 
-- The pie chart displays the distribution of reviews based on sentiment (Sentiment). It shows the percentage of reviews categorized as positive, negative, or neutral, providing insights into user sentiment towards the apps. It looks like, users tend to comment on positive aspects of apps.
-  
+- The pie chart displays the distribution of reviews based on sentiment (Sentiment). It shows the percentage of reviews categorized as positive, negative, or neutral, providing insights into user sentiment towards the apps. It looks like, users tend to comment on positive aspects of apps. Positive emotion dominates overall, which is encouraging for those mentioned apps. On the other hand, a significant amount of negative feedback indicates that developers should solve certain problems or flaws.
 ![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/5b63a2b0-3130-461f-a5a9-512a32257c23)
 *Figure 3.3: Percentage of Reviews by Sentiment*
 
 - The pie chart below shows that out of all the users who installed the apps in the dataset, about 4.73% of them also left a review. This metric provides insight into user engagement and can be used to gauge how actively users provide feedback after installing an app.
-  
 ![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/6db23312-062d-4745-9b68-4c05d9b39004)
 *Figure 3.4: Percentage of Users Who Left Reviews*
 
