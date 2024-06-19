@@ -253,18 +253,23 @@ The scatter plot shows the clustering results, with each point representing an a
 The purpose to automate the clustering process was driven by the need to gain deeper insights into the relationships between app characteristics, specifically 'Size', 'Rating', 'Reviews', 'Installs', and 'Price'. The previous analyses, such as the scatter plots and correlation matrices, indicated that these features play significant roles in determining app performance and user satisfaction. However, those analyses were limited to pairwise relationships and did not capture the multi-dimensional interactions between these features.
 
 Step 1: Check for Missing Values
+
 The initial step involved checking for missing values in the dataset to ensure data quality and completeness. Identifying and addressing missing values is crucial because they can significantly impact the accuracy and reliability of clustering results. This step ensures that the data used for clustering is complete and representative.
 
 Step 2: Select Relevant Features and Drop Rows with Missing Values
+
 Relevant features such as 'Size', 'Rating', 'Reviews', 'Installs', and 'Price' were selected for clustering. Rows with missing values in these selected features were dropped. This step was necessary to maintain the integrity of the dataset and ensure that the clustering algorithm receives consistent and complete data for analysis.
 
 Step 3: Impute Missing Values
+
 For any remaining missing values, a mean imputation strategy was employed. This approach fills missing values with the mean value of the respective feature, ensuring that no data points are excluded from the analysis. This step helps in maintaining a complete dataset without introducing significant bias.
 
 Step 4: Train-Test Split
+
 The dataset was split into training and test sets to evaluate the performance of the clustering model. A 70-30 split was chosen to ensure that a sufficient amount of data was available for both training the model and testing its effectiveness. This step is essential for validating the model and ensuring that it performs well on unseen data.
 
 Step 5: Standardize the Features
+
 Standardizing the features was performed to ensure that each feature contributes equally to the clustering process. Without standardization, features with larger ranges could dominate the clustering process. Standardization transforms the data to have a mean of zero and a standard deviation of one, creating a level playing field for all features.
 ```plaintext
 Train set size: 4573
@@ -272,6 +277,7 @@ Test set size: 1961
 ```
 
 Step 6: Clustering
+
 The optimal number of clusters was determined using the elbow method, which involves plotting the inertia (sum of squared distances of samples to their closest cluster center) against the number of clusters. This method helps in identifying the point where adding more clusters no longer significantly reduces the inertia, indicating the optimal number of clusters. K-Means clustering was then performed with the chosen number of clusters, and the results were added as cluster labels to the dataset.
 
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/393366bf-6c0d-40ec-9f3f-d030fd02d67f)
@@ -283,12 +289,14 @@ Cluster
 ```
 
 Step 7: Visualize Clusters
+
 Principal Component Analysis (PCA) was used to reduce the dimensionality of the data for visualization purposes. PCA simplifies the complexity of high-dimensional data while retaining its variance. The clusters were visualized in a 2D plot using the first two principal components, making it easier to interpret and understand the clustering results.
 
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/d1a51c9c-96a5-4f0f-a435-cba54b3a126e)
 
 
 Step 8: Predict Clusters for Test Set
+
 The trained K-Means model was used to predict cluster labels for the test set. This step ensured that the model's performance could be evaluated on unseen data, providing insights into its generalizability and effectiveness.
 
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/cea8a928-e2ff-43a6-833b-b61b1e0b1576)
@@ -300,6 +308,7 @@ Cluster
 ```
 
 Step 9: Evaluate Clustering Performance
+
 The silhouette score was calculated for both the training and test sets to evaluate the quality of the clusters. The silhouette score measures how similar an object is to its own cluster compared to other clusters. A higher silhouette score indicates better-defined and more cohesive clusters. This metric was used to validate the clustering results and ensure that the model effectively captured the underlying structure of the data.
 ```plaintext
 Silhouette Score for Train Set: 0.6197158136999724
