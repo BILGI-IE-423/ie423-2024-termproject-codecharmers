@@ -1,16 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/N24Xct0L)
 
-Pınar Sude Gürdamar - 120203073
-
-Fatma Hilal Börklü - 119200087
-
-Ece Taş - 121203066
-
-İlayda İyikesici - 119203041
-
-Emel Çatiçdaba - 121203072
-
-
 
 # Abstract 
 
@@ -60,26 +49,6 @@ Another approach to sensitivity analysis involves machine learning algorithms, w
 In different research papers, ensemble methods have been explored to tackle the hurdles of sentiment analysis by utilizing mathematical and statistical approaches like Gaussian distributions. However, these models are frequently seen as theoretical and lack real-world application (Buche et al., 2013). On the other hand, in a thorough exploration of machine learning, a separate study employed a variety of methods such as decision trees and neural networks to forecast app rankings by considering numerous features of the apps (Suleman et al., 2019). 
 
 Ratings are crucial because they directly impact an app's visibility and success. Apps with higher ratings are­ more likely to show up in the Google­ Play Store and attract new people­ to try the app. Sentime­nt analysis explores an intriguing realm: de­coding the nuanced expre­ssions embedded within re­views, including the intricate subte­xt conveyed through emojis. Emojis can help share­ feelings that words alone might not show. Studie­s show that emojis can share how people­ feel, and can help pre­dict ratings they might give to an app. Analyzing these alongside textual reviews offers a richer, more dimensional understanding of user opinions (Martens and Johann, 2017).  
-
-# Datasets Used
-
-
-1. Google Play Store Apps
-   
-https://www.kaggle.com/datasets/lava18/google-play-store-apps?select=googleplaystore.csv
-
-2. Google Play Store Apps - User Reviews
-
-https://www.kaggle.com/datasets/lava18/google-play-store-apps?select=googleplaystore_user_reviews.csv
-
-3. Google Play Store Apps Reviews (+110K Comment)-Apps
-
-https://www.kaggle.com/datasets/mehdislim01/google-play-store-apps-reviews-110k-comment?select=Apps.csv
-
-4. Google Play Store Apps Reviews (+110K Comment)-Reviews
-
-https://www.kaggle.com/datasets/mehdislim01/google-play-store-apps-reviews-110k-comment?select=Reviews.csv
-
 
 
 # About Preprocessing Data
@@ -545,6 +514,25 @@ Using emotion detection algorithms to classify reviews into specific emotional c
 Applying clustering algorithms (e.g., K-means) to segment users based on their reviews, ratings, and installation behaviors is preferable to gain deeper insights into user behavior and preferences through segment specific analytics. This would allow the development of personalized recommendations and targeted marketing strategies based on user segments.
 
 
+# Datasets Used
+
+
+1. Google Play Store Apps
+   
+https://www.kaggle.com/datasets/lava18/google-play-store-apps?select=googleplaystore.csv
+
+2. Google Play Store Apps - User Reviews
+
+https://www.kaggle.com/datasets/lava18/google-play-store-apps?select=googleplaystore_user_reviews.csv
+
+3. Google Play Store Apps Reviews (+110K Comment)-Apps
+
+https://www.kaggle.com/datasets/mehdislim01/google-play-store-apps-reviews-110k-comment?select=Apps.csv
+
+4. Google Play Store Apps Reviews (+110K Comment)-Reviews
+
+https://www.kaggle.com/datasets/mehdislim01/google-play-store-apps-reviews-110k-comment?select=Reviews.csv
+
 
 # Project Timeline and Deliverables
 
@@ -595,6 +583,18 @@ gantt
     Performance and Scalability Optimization :done         md3, 2024-06-16, 2024-06-19
 
    ```
+
+### Team Members:
+
+Pınar Sude Gürdamar - 120203073
+
+Fatma Hilal Börklü - 119200087
+
+Ece Taş - 121203066
+
+İlayda İyikesici - 119203041
+
+Emel Çatiçdaba - 121203072
 
 
 ## REFERENCES 
