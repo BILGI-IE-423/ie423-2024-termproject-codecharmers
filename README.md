@@ -331,8 +331,8 @@ Name: Rating, dtype: int64
 
 The studies presented in the graphs on “SentimentAnalysisGraphs.ipynb” capture the changes in users' emotional reactions before and after the COVID-19 pandemic in several significant ways.By reading the datasets, column names were standardized and datasets were merged. Sentiment analysis was performed on the “content” column using TextBlob from the merged dataset. This analysis resulted in the calculation of sensitivity, polarity, and subjectivity values ​​for each review. The data was divided into pre-COVID-19 and post-COVID-19 periods and saved in separate CSV files. Both CSV files included sentiment analysis results based on the "content" column. This process aimed to analyze sentiment in app reviews and their changes over time. Here's everything in detail:
 
-**Pre-COVID Sentiment Distribution**: The pie chart indicates that before the pandemic, a majority of the sentiments were positive (65.1%), with negative sentiments at 26.1%, and neutral sentiments at 8.9%.  
-**Post-COVID Sentiment Distribution**: The second pie chart shows a slight decrease in positive sentiments to 61%, a small decrease in negative sentiments to 24.4%, and an increase in neutral sentiments to 14.6%.
+- **Pre-COVID Sentiment Distribution**: The pie chart indicates that before the pandemic, a majority of the sentiments were positive (65.1%), with negative sentiments at 26.1%, and neutral sentiments at 8.9%.  
+- **Post-COVID Sentiment Distribution**: The second pie chart shows a slight decrease in positive sentiments to 61%, a small decrease in negative sentiments to 24.4%, and an increase in neutral sentiments to 14.6%.
 
 ![Ekran görüntüsü 2024-06-17 124639](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/0b46f365-c378-4ef4-958b-a819b8dd258f)
 
@@ -341,54 +341,74 @@ The studies presented in the graphs on “SentimentAnalysisGraphs.ipynb” captu
 
 *Figure 2.8: Sentiment Distribution Post-COVID-19*
 
-The emotion distribution bar chart comparing pre-,and post-COVID reveals an obvious decrease in positive emotions and a little decline in negative emotions, with a notable increase in neutral sentiments following the COVID-19 pandemic. This implies that consumers' emotional responses during the epidemic were less judgmental or unsure.
+- The emotion distribution bar chart comparing pre-,and post-COVID reveals an obvious decrease in positive emotions and a little decline in negative emotions, with a notable increase in neutral sentiments following the COVID-19 pandemic. This implies that consumers' emotional responses during the epidemic were less judgmental or unsure.
 
 ![Ekran görüntüsü 2024-06-17 124615](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/a7438008-0c94-4303-b2d1-d1f638f19cd4)  
 *Figure 2.9: Sentiment Distribution Pre- and Post-COVID-19*
 
-The line graph shows the evolution of sentiment trends over time; it shows an obvious decrease in positive emotions prior to COVID-19 and an increase in neutral feelings in response, while negative sentiments stay mostly unchanged. This pattern shows a change in user responses, which may have been impacted by the pandemic's stress and uncertainty on a worldwide scale.
+- The line graph shows the evolution of sentiment trends over time; it shows an obvious decrease in positive emotions prior to COVID-19 and an increase in neutral feelings in response, while negative sentiments stay mostly unchanged. This pattern shows a change in user responses, which may have been impacted by the pandemic's stress and uncertainty on a worldwide scale.
 
 ![Ekran görüntüsü 2024-06-17 124703](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/d57afbe2-74bc-4a23-9da3-e15b7a9c401a)  
 *Figure 2.10: Sentiment Trends in Pre- and Post-COVID-19*
 
-**Pre-COVID Genre Usage**: The bar chart shows high usage of Education and Photography apps before the pandemic, with other genres having significantly lower usage rates.  
-**During COVID Genre Usage**: There's a noticeable shift in genre usage during the pandemic, with Education and Photography remaining dominant, but there's a slight decrease in their proportion, indicating a diversification in app usage.
+- **Pre-COVID Genre Usage**: The bar chart shows high usage of Education and Photography apps before the pandemic, with other genres having significantly lower usage rates.  
+- **During COVID Genre Usage**: There's a noticeable shift in genre usage during the pandemic, with Education and Photography remaining dominant, but there's a slight decrease in their proportion, indicating a diversification in app usage.
 
 ![Ekran görüntüsü 2024-06-17 132444](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/99834023-aa77-4f5d-8633-5adea258bc9e)  
 *Figure 2.11: Pre-COVID Genre Usage*
 ![Ekran görüntüsü 2024-06-17 124727](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/461a2d21-c1b9-4359-af50-c386203f9849)  
 *Figure 2.12: During COVID Genre Usage*
 
-The comparison bar chart illustrates how consumption trends for different app genres changed. For instance, during the pandemic, there was a noticeable rise in the use of Tools and Art-Design apps, indicating changes in user requirements and activities. In contrast, Education and Photography apps continued to have significant utilization
+- The comparison bar chart illustrates how consumption trends for different app genres changed. For instance, during the pandemic, there was a noticeable rise in the use of Tools and Art-Design apps, indicating changes in user requirements and activities. In contrast, Education and Photography apps continued to have significant utilization
 
 ![Ekran görüntüsü 2024-06-17 124739](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/2e554eb2-1dd1-4698-9950-949943f1c1ff)  
 *Figure 2.13: Genre Usage Comparision*
 
-Before and during the epidemic, the stacked bar chart offers a thorough analysis of the sentiment distribution across several app categories. Although there is an obvious increase in neutral opinions across all categories throughout the pandemic, areas with significant positive sentiments include Tools, Health & Fitness, and Education. This shows the need to apps that are in Tools, Health & Fitness, and Education genres increased during pandemic. Also, these apps made lives easier and changed the dynamics of education, workout, and business life on daily basis. 
+- Before and during the epidemic, the stacked bar chart offers a thorough analysis of the sentiment distribution across several app categories. Although there is an obvious increase in neutral opinions across all categories throughout the pandemic, areas with significant positive sentiments include Tools, Health & Fitness, and Education. This shows the need to apps that are in Tools, Health & Fitness, and Education genres increased during pandemic. Also, these apps made lives easier and changed the dynamics of education, workout, and business life on daily basis. 
 
 ![Ekran görüntüsü 2024-06-17 124801](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/2fc3fbaf-74d4-498d-9994-294be79a2ccf)  
 *Figure 2.14: Sentiment Distribution by Category*  
+
+# Additional Analysis on User Behaviour
+The visuals presented on “SomeAdditionalAnalaysis.ipynb” capture the patterns in users' behaviours on Google Play Apps in several significant ways.
+
+- The first scatter plot (Installs vs Reviews) visualizes how the number of installs relates to the number of reviews an app receives. This helps us see if there's a correlation between popularity (installs) and user engagement (reviews).
+![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/e04a8d43-f5b5-4dc5-ac14-7c48d782e617)
+*Figure 3.1: Installs vs Reviews*
+
+- The second scatter plot (Rating vs Installs) examines how app ratings are distributed based on the number of installs. This plot helps us understand if highly installed apps tend to have higher ratings or if there's no clear relationship.
+![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/f9e1086e-3596-4c69-839c-addb5f40fa03)
+*Figure 3.2: Ratings vs Installs*
+
+- The pie chart displays the distribution of reviews based on sentiment (Sentiment). It shows the percentage of reviews categorized as positive, negative, or neutral, providing insights into user sentiment towards the apps.
+![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/5b63a2b0-3130-461f-a5a9-512a32257c23)
+*Figure 3.3: Percentage of Reviews by Sentiment*
+
+- The pie chart below shows that out of all the users who installed the apps in the dataset, about 4.73% of them also left a review. This metric provides insight into user engagement and can be used to gauge how actively users provide feedback after installing an app.
+![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/6db23312-062d-4745-9b68-4c05d9b39004)
+*Figure 3.4: Percentage of Users Who Left Reviews*
+
 
 # Future Works
 
 To improve the project that includes score prediction models and insights, the following steps can be implemented to make the scope of the project more comprehensive:
 
-**Data Augmentation:**
+- **Data Augmentation:**
 Data augmentation artificially increases the training set by creating modified copies of a dataset using existing data. Generating synthetic data to augment the training set, especially for underrepresented categories or features, might make our model more reliable and stronger.
 
-**Stacking:**
+- **Stacking:**
 Combining predictions from multiple models (e.g., Random Forest, Gradient Boosting, Linear Regression) would create a more robust and accurate ensemble model.
 
-**Topic Modeling:**
+- **Topic Modeling:**
 Latent Dirichlet Allocation (LDA) is a probabilistic model that generates a set of topics, each represented by a distribution over words, for a given corpus of documents. Implementing LDA to identify key themes and topics within user reviews would significantly improve our predictions.
 
-**Deep Learning Models:**
+- **Deep Learning Models:**
 To improve the model, implementing learning architectures such as LSTM and Transformer models might be effective for handling sequential and text data.
 
-**Emotion Detection:**
+- **Emotion Detection:**
 Using emotion detection algorithms to classify reviews into specific emotional categories (e.g., joy, anger, sadness) would enhance the project’s comprehensiveness in emotion studies.
 
-**User Segmentation:**
+- **User Segmentation:**
 Applying clustering algorithms (e.g., K-means) to segment users based on their reviews, ratings, and installation behaviors is preferable to gain deeper insights into user behavior and preferences through segment specific analytics. This would allow the development of personalized recommendations and targeted marketing strategies based on user segments.
 
 
