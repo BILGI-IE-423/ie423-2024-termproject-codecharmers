@@ -398,7 +398,13 @@ The studies presented in the graphs on “SentimentAnalysisGraphs.ipynb” captu
 # Additional Analysis on User Behaviour
 The visuals presented on “SomeAdditionalAnalaysis.ipynb” capture the patterns in users' behaviours on Google Play Apps in several significant ways.
 
-- The first scatter plot (Installs vs Reviews) visualizes how the number of installs relates to the number of reviews an app receives. This helps us see if there's a correlation between popularity (installs) and user engagement (reviews).
+- The first scatter plot (Installs vs Reviews) visualizes how the number of installs relates to the number of reviews an app receives. This helps us see if there's a correlation between popularity (installs) and user engagement (reviews). As seen on correlation matrix (Figure 1.1) ,there is high correlation between Install numbers and Reviews. Also, when we look for the distribution of Install variable, dataset has only 8 unique values, numbers are not continuous valued. That is why on Installs aspect, there is no high distribution on graphic. 
+
+```plaintext
+"Installs" Unique Values
+[    500000    5000000   10000000 1000000000  100000000   50000000
+    1000000  500000000]
+```
 ![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/e04a8d43-f5b5-4dc5-ac14-7c48d782e617)
 *Figure 3.1: Installs vs Reviews*
 
