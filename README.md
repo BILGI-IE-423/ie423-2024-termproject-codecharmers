@@ -165,16 +165,48 @@ min                  0.000000
 75%                  0.600000
 max                  0.900000
 ```
+Based on the descriptive statistics provided for various app features, we can derive several meaningful insights:
 
+Rating Distribution:
+
+High Satisfaction: The mean rating of 4.45 and the relatively tight standard deviation of 0.19 suggest that users are generally very satisfied with the apps. The ratings are closely clustered around the mean, indicating consistent user experience across different apps.
+
+App Size:
+
+Wide Range: App sizes vary significantly, with a range from 4.4 MB to 77 MB. The standard deviation of 21.97 MB indicates considerable variance in app sizes. The high variance points to a diverse set of apps, from lightweight to very large ones.
+
+Install Counts:
+
+Right-Skewed Distribution: The mean number of installs is approximately 104.81 million, which is significantly higher than the median of 50 million. This indicates a right-skewed distribution, where a small number of extremely popular apps have very high install counts, inflating the average.
+High Variance: With a standard deviation of 226.62 million installs, the data shows high variance, reflecting the disparity between widely popular apps and those with fewer installs.
+
+Sentiment Polarity:
+
+Balanced Sentiments: The mean sentiment polarity of 0.31 and the median at the same value indicate a balanced distribution of positive and negative sentiments. However, the standard deviation of 0.28 shows there is some variability in user sentiments.
+Diverse Opinions: The range from -0.25 to 1.0 suggests that user opinions are diverse, with some apps receiving highly positive feedback and others receiving more mixed or even negative feedback.
+
+Sentiment Subjectivity:
+
+Moderate Subjectivity: The mean sentiment subjectivity of 0.42 and a median of 0.50 imply that reviews tend to be moderately subjective. This indicates that while many reviews are based on personal opinion, there is also a substantial amount of objective feedback.
 
 ![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/f20c4202-fc48-4331-b91e-1bd9435e4ed7)
 *Figure 1.1: Correlation Between Numerical Features*
+
+Based on the correlation matrix provided, we can make the following observations:
+
+High Correlation Between Installs and Reviews: Installs and Reviews are highly correlated with a correlation coefficient close to 1. This indicates that as the number of installs increases, the number of reviews also increases proportionally.
+
+Significant Relationship Between Size and Reviews: There is a notable correlation between app size and the number of reviews, with a correlation coefficient of 0.60. This suggests that larger apps tend to have more reviews.
+
+Negative Correlation Between Rating and App Size: Since the project's aim is to predict ratings, it is important to note that app size has a negative correlation with ratings (correlation coefficient of -0.34). This relationship has been further analyzed in subsequent steps.
 
 ![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/c3b5f5b0-25fb-4ace-a07d-b4cbed17e740)
 *Figure 1.2: Pair Plot of Numeric Features*
 
 ![download](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/159184426/a05682c7-e983-41c1-ae4a-b76e12206d2e)
 *Figure 1.3: Mean Rating by Category*
+
+The category-based analysis reveals that most app categories have remarkably high and consistent mean ratings, generally around 4 or above, indicating widespread user satisfaction across various types of apps. This trend suggests that regardless of the app category, users tend to rate their experiences favorably. Notably, the "GAME" category stands out with the highest mean rating, highlighting the particularly positive reception of gaming apps. This could be attributed to the engaging and entertaining nature of these apps. 
 
 ![image](https://github.com/BILGI-IE-423/ie423-2024-termproject-codecharmers/assets/167031646/a0dab2e3-1e56-4244-80c6-3d8cbe7435d9)
 *Figure 1.4: Distribution of Ratings*
